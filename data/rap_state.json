@@ -1,188 +1,46 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-26T16:17:47.517396Z",
+  "updated_at": "2026-10-26T16:35:22.753856Z",
   "videos": {
-    "-5ZXrO_lYSA": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
-      "market_candidates": [
-        "de",
-        "fr",
-        "uk",
-        "us"
-      ],
-      "sources": [
-        "music_chart:de",
-        "music_chart:fr",
-        "music_chart:uk",
-        "music_chart:us"
-      ],
-      "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 58986520
-      },
-      "last_interval": null
-    },
-    "-6CfRENUnUY": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
-      "market_candidates": [
-        "us"
-      ],
-      "sources": [
-        "music_chart:us"
-      ],
-      "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 898504
-      },
-      "last_interval": null
-    },
-    "-ZnYdmreOrk": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
-      "market_candidates": [
-        "uk"
-      ],
-      "sources": [
-        "music_chart:uk"
-      ],
-      "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 18685437
-      },
-      "last_interval": null
-    },
-    "-hYBFSvjlFw": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+    "0C3tDeOIam0": {
+      "first_seen_at": "2026-10-26T16:35:22.753856Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
         "de"
       ],
       "sources": [
-        "music_chart:de"
+        "search:de:relevance:Deutschrap offizielles Musikvideo"
       ],
       "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 655551
+        "measured_at": "2026-10-26T16:35:22.753856Z",
+        "views": 98381
       },
       "last_interval": null
     },
-    "-hnDxo5hzkQ": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+    "1-OZI3ouLCE": {
+      "first_seen_at": "2026-10-26T16:35:22.753856Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
         "us"
       ],
       "sources": [
-        "search:us:date:hip hop official audio"
+        "search:us:relevance:American hip hop official audio"
       ],
       "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 7
-      },
-      "last_interval": null
-    },
-    "-zbj-stkC9U": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
-      "market_candidates": [
-        "uk"
-      ],
-      "sources": [
-        "music_chart:uk"
-      ],
-      "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 118013
-      },
-      "last_interval": null
-    },
-    "-zvixJnZuUU": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
-      "market_candidates": [
-        "uk",
-        "us"
-      ],
-      "sources": [
-        "music_chart:uk",
-        "search:us:viewCount:rap official music video"
-      ],
-      "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 24709717
-      },
-      "last_interval": null
-    },
-    "06fgsR8onfE": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
-      "market_candidates": [
-        "uk"
-      ],
-      "sources": [
-        "search:uk:viewCount:UK rap official music video"
-      ],
-      "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 476243
-      },
-      "last_interval": null
-    },
-    "0Hewa21z8JI": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
-      "market_candidates": [
-        "us"
-      ],
-      "sources": [
-        "search:us:viewCount:hip hop official audio"
-      ],
-      "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 3949643
-      },
-      "last_interval": null
-    },
-    "0rW7Fbm4S7g": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
-      "market_candidates": [
-        "us"
-      ],
-      "sources": [
-        "search:us:viewCount:rap official music video"
-      ],
-      "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 41613250
-      },
-      "last_interval": null
-    },
-    "15SIksKADvY": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
-      "market_candidates": [
-        "us"
-      ],
-      "sources": [
-        "music_chart:us"
-      ],
-      "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 614214
+        "measured_at": "2026-10-26T16:35:22.753856Z",
+        "views": 482343
       },
       "last_interval": null
     },
     "1GKyX3PFW-Q": {
       "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
         "uk"
       ],
       "sources": [
-        "search:uk:viewCount:UK rap official music video"
+        "search:uk:relevance:UK rap official audio",
+        "search:uk:relevance:UK rap official music video"
       ],
       "anchor": {
         "measured_at": "2026-10-26T16:17:47.517396Z",
@@ -190,39 +48,39 @@
       },
       "last_interval": null
     },
-    "1a7ScsrxDYY": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+    "1HJHoB8JGwA": {
+      "first_seen_at": "2026-10-26T16:35:22.753856Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
-        "uk"
+        "us"
       ],
       "sources": [
-        "search:uk:viewCount:UK rap official audio"
+        "search:us:relevance:US rap official music video"
       ],
       "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 149004
+        "measured_at": "2026-10-26T16:35:22.753856Z",
+        "views": 697508
       },
       "last_interval": null
     },
-    "246z5TWNMj8": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+    "1ZlwlIe9wBA": {
+      "first_seen_at": "2026-10-26T16:35:22.753856Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
-        "fr"
+        "us"
       ],
       "sources": [
-        "music_chart:fr"
+        "search:us:date:US rap official music video"
       ],
       "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 223592
+        "measured_at": "2026-10-26T16:35:22.753856Z",
+        "views": 911
       },
       "last_interval": null
     },
     "2A0oYFLCQ3Q": {
       "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
         "de"
       ],
@@ -237,7 +95,7 @@
     },
     "2HGwZ5tjv_8": {
       "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
         "uk"
       ],
@@ -252,7 +110,7 @@
     },
     "3JMVSBFsCF8": {
       "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
         "uk"
       ],
@@ -265,24 +123,9 @@
       },
       "last_interval": null
     },
-    "3ZGptz21Nw8": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
-      "market_candidates": [
-        "us"
-      ],
-      "sources": [
-        "search:us:date:hip hop official audio"
-      ],
-      "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 1
-      },
-      "last_interval": null
-    },
     "3cgJCZQeGcA": {
       "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
         "de"
       ],
@@ -295,24 +138,9 @@
       },
       "last_interval": null
     },
-    "3fLYEYo3iOY": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
-      "market_candidates": [
-        "us"
-      ],
-      "sources": [
-        "music_chart:us"
-      ],
-      "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 378952
-      },
-      "last_interval": null
-    },
     "3xDkd9tdBiE": {
       "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
         "uk"
       ],
@@ -320,59 +148,29 @@
         "search:uk:date:UK rap official audio"
       ],
       "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 12
+        "measured_at": "2026-10-26T16:35:22.753856Z",
+        "views": 11
       },
       "last_interval": null
     },
-    "48rRv5ISfrg": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+    "4W7IGA7EBEc": {
+      "first_seen_at": "2026-10-26T16:35:22.753856Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
         "us"
       ],
       "sources": [
-        "search:us:viewCount:hip hop official audio"
+        "search:us:date:US rap official music video"
       ],
       "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 4947065
-      },
-      "last_interval": null
-    },
-    "4EGeqvUcMfE": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
-      "market_candidates": [
-        "us"
-      ],
-      "sources": [
-        "search:us:date:hip hop official audio"
-      ],
-      "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 1
-      },
-      "last_interval": null
-    },
-    "4XGLZX-LYmg": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
-      "market_candidates": [
-        "de"
-      ],
-      "sources": [
-        "search:de:viewCount:Deutschrap official audio"
-      ],
-      "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 106228
+        "measured_at": "2026-10-26T16:35:22.753856Z",
+        "views": 0
       },
       "last_interval": null
     },
     "4sXv8pB6j0I": {
       "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
         "fr"
       ],
@@ -385,56 +183,24 @@
       },
       "last_interval": null
     },
-    "5dPwBWvmcbQ": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+    "4yS-KJNTHXo": {
+      "first_seen_at": "2026-10-26T16:35:22.753856Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
-        "fr",
-        "uk"
+        "us"
       ],
       "sources": [
-        "music_chart:fr",
-        "music_chart:uk"
+        "search:us:date:American hip hop official audio"
       ],
       "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 8735367
-      },
-      "last_interval": null
-    },
-    "6G8T7aBItRA": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
-      "market_candidates": [
-        "de"
-      ],
-      "sources": [
-        "search:de:viewCount:Deutschrap official audio"
-      ],
-      "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 44248
-      },
-      "last_interval": null
-    },
-    "6W2I_zadtUA": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
-      "market_candidates": [
-        "fr"
-      ],
-      "sources": [
-        "music_chart:fr"
-      ],
-      "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 593309
+        "measured_at": "2026-10-26T16:35:22.753856Z",
+        "views": 14
       },
       "last_interval": null
     },
     "6XMdUaxr5Ks": {
       "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
         "de"
       ],
@@ -442,14 +208,14 @@
         "search:de:date:Deutschrap official audio"
       ],
       "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 89
+        "measured_at": "2026-10-26T16:35:22.753856Z",
+        "views": 82
       },
       "last_interval": null
     },
     "6cWyZ5GqfrI": {
       "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
         "uk"
       ],
@@ -462,69 +228,55 @@
       },
       "last_interval": null
     },
-    "6rEIKZ6lNto": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
-      "market_candidates": [
-        "us"
-      ],
-      "sources": [
-        "search:us:date:rap official music video"
-      ],
-      "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 248
-      },
-      "last_interval": null
-    },
     "70SpMdBfkBU": {
       "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
         "de"
       ],
       "sources": [
-        "search:de:date:Deutschrap official audio"
+        "search:de:date:Deutschrap official audio",
+        "search:de:relevance:Deutschrap official audio"
       ],
       "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 13
+        "measured_at": "2026-10-26T16:35:22.753856Z",
+        "views": 12
       },
       "last_interval": null
     },
-    "71-2M0VdRk0": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+    "7_9fDWZftGI": {
+      "first_seen_at": "2026-10-26T16:35:22.753856Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
         "us"
       ],
       "sources": [
-        "search:us:date:rap official music video"
+        "search:us:date:US rap official music video"
       ],
       "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 931
+        "measured_at": "2026-10-26T16:35:22.753856Z",
+        "views": 2
       },
       "last_interval": null
     },
-    "7LRCBvc86gU": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+    "7kEYwg_wqjk": {
+      "first_seen_at": "2026-10-26T16:35:22.753856Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
-        "de"
+        "uk"
       ],
       "sources": [
-        "search:de:viewCount:Deutschrap official audio"
+        "search:uk:relevance:UK rap official music video"
       ],
       "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 66953
+        "measured_at": "2026-10-26T16:35:22.753856Z",
+        "views": 8532
       },
       "last_interval": null
     },
     "7zNHpsabKTg": {
       "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
         "de"
       ],
@@ -537,54 +289,24 @@
       },
       "last_interval": null
     },
-    "87CBliniXss": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+    "8AaUTniTJIk": {
+      "first_seen_at": "2026-10-26T16:35:22.753856Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
         "uk"
       ],
       "sources": [
-        "search:uk:date:UK rap official audio"
+        "search:uk:relevance:UK rap official music video"
       ],
       "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 14
-      },
-      "last_interval": null
-    },
-    "89qvS9HjhFY": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
-      "market_candidates": [
-        "de"
-      ],
-      "sources": [
-        "search:de:viewCount:Deutschrap offizielles Musikvideo"
-      ],
-      "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 43808
-      },
-      "last_interval": null
-    },
-    "8Alz-DeB72g": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
-      "market_candidates": [
-        "us"
-      ],
-      "sources": [
-        "search:us:date:hip hop official audio"
-      ],
-      "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 1
+        "measured_at": "2026-10-26T16:35:22.753856Z",
+        "views": 1287
       },
       "last_interval": null
     },
     "8KS6PQnRkfs": {
       "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
         "fr"
       ],
@@ -597,9 +319,24 @@
       },
       "last_interval": null
     },
+    "8QsrgJIXJBU": {
+      "first_seen_at": "2026-10-26T16:35:22.753856Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
+      "market_candidates": [
+        "us"
+      ],
+      "sources": [
+        "search:us:relevance:US rap official music video"
+      ],
+      "anchor": {
+        "measured_at": "2026-10-26T16:35:22.753856Z",
+        "views": 4351306
+      },
+      "last_interval": null
+    },
     "8TT-GuDGz_Y": {
       "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
         "fr"
       ],
@@ -612,26 +349,9 @@
       },
       "last_interval": null
     },
-    "8ZQbCbjW8Vg": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
-      "market_candidates": [
-        "de",
-        "uk"
-      ],
-      "sources": [
-        "music_chart:de",
-        "music_chart:uk"
-      ],
-      "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 3649285
-      },
-      "last_interval": null
-    },
     "8um7951waHY": {
       "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
         "de"
       ],
@@ -646,7 +366,7 @@
     },
     "8xMjb6CqcUI": {
       "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
         "fr"
       ],
@@ -661,13 +381,12 @@
     },
     "8z2kRNei8SI": {
       "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
         "uk"
       ],
       "sources": [
-        "music_chart:uk",
-        "search:uk:viewCount:UK rap official music video"
+        "search:uk:relevance:UK rap official music video"
       ],
       "anchor": {
         "measured_at": "2026-10-26T16:17:47.517396Z",
@@ -677,7 +396,7 @@
     },
     "92X9b9k8xm4": {
       "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
         "fr"
       ],
@@ -690,15 +409,30 @@
       },
       "last_interval": null
     },
+    "9MBK-HdxUzw": {
+      "first_seen_at": "2026-10-26T16:35:22.753856Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
+      "market_candidates": [
+        "uk"
+      ],
+      "sources": [
+        "search:uk:relevance:UK rap official audio"
+      ],
+      "anchor": {
+        "measured_at": "2026-10-26T16:35:22.753856Z",
+        "views": 84222
+      },
+      "last_interval": null
+    },
     "9Q8urvtRAIs": {
       "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
         "fr"
       ],
       "sources": [
-        "search:fr:viewCount:rap français audio officiel",
-        "search:fr:viewCount:rap français clip officiel"
+        "search:fr:relevance:rap français audio officiel",
+        "search:fr:relevance:rap français clip officiel"
       ],
       "anchor": {
         "measured_at": "2026-10-26T16:17:47.517396Z",
@@ -708,7 +442,7 @@
     },
     "9UW1WAaF7RY": {
       "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
         "de"
       ],
@@ -723,7 +457,7 @@
     },
     "9_irLovlhDc": {
       "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
         "uk"
       ],
@@ -738,7 +472,7 @@
     },
     "9aOK2zK5hds": {
       "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
         "fr"
       ],
@@ -751,39 +485,24 @@
       },
       "last_interval": null
     },
-    "9ofUM-_3uQ4": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+    "A37Mu33Rk0U": {
+      "first_seen_at": "2026-10-26T16:35:22.753856Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
         "us"
       ],
       "sources": [
-        "search:us:viewCount:rap official music video"
+        "search:us:date:US rap official music video"
       ],
       "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 7650474
-      },
-      "last_interval": null
-    },
-    "9ov2RJJSZjE": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
-      "market_candidates": [
-        "us"
-      ],
-      "sources": [
-        "music_chart:us"
-      ],
-      "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 389103
+        "measured_at": "2026-10-26T16:35:22.753856Z",
+        "views": 40
       },
       "last_interval": null
     },
     "A8cFX3y8gqs": {
       "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
         "uk"
       ],
@@ -796,45 +515,15 @@
       },
       "last_interval": null
     },
-    "AT472M2Qb4I": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
-      "market_candidates": [
-        "us"
-      ],
-      "sources": [
-        "search:us:date:hip hop official audio"
-      ],
-      "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 0
-      },
-      "last_interval": null
-    },
-    "Af5QTrnWrI4": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
-      "market_candidates": [
-        "us"
-      ],
-      "sources": [
-        "music_chart:us"
-      ],
-      "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 407875
-      },
-      "last_interval": null
-    },
     "Ag6AsqRtE-8": {
       "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
         "fr"
       ],
       "sources": [
-        "search:fr:viewCount:rap français audio officiel",
-        "search:fr:viewCount:rap français clip officiel"
+        "search:fr:relevance:rap français audio officiel",
+        "search:fr:relevance:rap français clip officiel"
       ],
       "anchor": {
         "measured_at": "2026-10-26T16:17:47.517396Z",
@@ -842,115 +531,54 @@
       },
       "last_interval": null
     },
-    "AkH_lVVo1CI": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
-      "market_candidates": [
-        "uk"
-      ],
-      "sources": [
-        "search:uk:viewCount:UK rap official music video"
-      ],
-      "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 182628
-      },
-      "last_interval": null
-    },
-    "BI6YxoplhBs": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+    "AuTeief0c_U": {
+      "first_seen_at": "2026-10-26T16:35:22.753856Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
         "us"
       ],
       "sources": [
-        "search:us:viewCount:hip hop official audio"
+        "search:us:relevance:US rap official music video"
       ],
       "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 1285298
+        "measured_at": "2026-10-26T16:35:22.753856Z",
+        "views": 6461
       },
       "last_interval": null
     },
-    "BId50UJ9mlk": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
-      "market_candidates": [
-        "uk"
-      ],
-      "sources": [
-        "search:uk:viewCount:UK rap official music video"
-      ],
-      "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 394054
-      },
-      "last_interval": null
-    },
-    "Brtv3u22m2I": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+    "C4Hf0MjkfOo": {
+      "first_seen_at": "2026-10-26T16:35:22.753856Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
         "us"
       ],
       "sources": [
-        "search:us:viewCount:hip hop official audio",
-        "search:us:viewCount:rap official music video"
+        "search:us:date:US rap official music video"
       ],
       "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 5354328
+        "measured_at": "2026-10-26T16:35:22.753856Z",
+        "views": 4305
       },
       "last_interval": null
     },
-    "BzTdB781m5M": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+    "CKK4FqG-fok": {
+      "first_seen_at": "2026-10-26T16:35:22.753856Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
-        "us"
+        "de"
       ],
       "sources": [
-        "search:us:viewCount:hip hop official audio"
+        "search:de:relevance:Deutschrap official audio"
       ],
       "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 1195114
-      },
-      "last_interval": null
-    },
-    "CGBMexUljLE": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
-      "market_candidates": [
-        "us"
-      ],
-      "sources": [
-        "search:us:date:rap official music video"
-      ],
-      "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 37
-      },
-      "last_interval": null
-    },
-    "CN3yB9ysMtk": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
-      "market_candidates": [
-        "us"
-      ],
-      "sources": [
-        "search:us:date:rap official music video"
-      ],
-      "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 126625
+        "measured_at": "2026-10-26T16:35:22.753856Z",
+        "views": 304
       },
       "last_interval": null
     },
     "Cff_FwmZ5nA": {
       "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
         "fr"
       ],
@@ -963,123 +591,39 @@
       },
       "last_interval": null
     },
-    "CsBxV1HFCHA": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
-      "market_candidates": [
-        "fr"
-      ],
-      "sources": [
-        "music_chart:fr"
-      ],
-      "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 179463
-      },
-      "last_interval": null
-    },
-    "CxW46IKpjpA": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+    "D4NV0cEddvM": {
+      "first_seen_at": "2026-10-26T16:35:22.753856Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
         "us"
       ],
       "sources": [
-        "music_chart:us"
+        "search:us:relevance:American hip hop official audio"
       ],
       "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 1987309
+        "measured_at": "2026-10-26T16:35:22.753856Z",
+        "views": 78
       },
       "last_interval": null
     },
-    "Cz7Pd9n3quE": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+    "DEtbkl2sCxg": {
+      "first_seen_at": "2026-10-26T16:35:22.753856Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
-        "de",
         "uk"
       ],
       "sources": [
-        "music_chart:de",
-        "music_chart:uk"
+        "search:uk:relevance:UK rap official audio"
       ],
       "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 8252970
-      },
-      "last_interval": null
-    },
-    "D0YkgCt_MgA": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
-      "market_candidates": [
-        "us"
-      ],
-      "sources": [
-        "search:us:viewCount:hip hop official audio",
-        "search:us:viewCount:rap official music video"
-      ],
-      "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 15852314
-      },
-      "last_interval": null
-    },
-    "DIbw6NtHI58": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
-      "market_candidates": [
-        "fr"
-      ],
-      "sources": [
-        "music_chart:fr"
-      ],
-      "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 2140814
-      },
-      "last_interval": null
-    },
-    "DPEodkHzH-s": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
-      "market_candidates": [
-        "de",
-        "fr",
-        "uk",
-        "us"
-      ],
-      "sources": [
-        "music_chart:de",
-        "music_chart:fr",
-        "music_chart:uk",
-        "music_chart:us"
-      ],
-      "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 15591843
-      },
-      "last_interval": null
-    },
-    "DX7HowkT8oQ": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
-      "market_candidates": [
-        "us"
-      ],
-      "sources": [
-        "music_chart:us"
-      ],
-      "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 343726
+        "measured_at": "2026-10-26T16:35:22.753856Z",
+        "views": 3682
       },
       "last_interval": null
     },
     "DiFytm1mIYM": {
       "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
         "de"
       ],
@@ -1092,29 +636,61 @@
       },
       "last_interval": null
     },
-    "DkAel21YEg4": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+    "DotvCA33yy4": {
+      "first_seen_at": "2026-10-26T16:35:22.753856Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
-        "uk"
+        "us"
       ],
       "sources": [
-        "search:uk:viewCount:UK rap official music video"
+        "search:us:relevance:American hip hop official audio"
       ],
       "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 247722
+        "measured_at": "2026-10-26T16:35:22.753856Z",
+        "views": 28067
+      },
+      "last_interval": null
+    },
+    "E-F88RYfEes": {
+      "first_seen_at": "2026-10-26T16:35:22.753856Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
+      "market_candidates": [
+        "de"
+      ],
+      "sources": [
+        "search:de:relevance:Deutschrap official audio"
+      ],
+      "anchor": {
+        "measured_at": "2026-10-26T16:35:22.753856Z",
+        "views": 2254
+      },
+      "last_interval": null
+    },
+    "E6sNP9cQtJs": {
+      "first_seen_at": "2026-10-26T16:35:22.753856Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
+      "market_candidates": [
+        "uk",
+        "us"
+      ],
+      "sources": [
+        "search:uk:relevance:UK rap official audio",
+        "search:us:relevance:US rap official music video"
+      ],
+      "anchor": {
+        "measured_at": "2026-10-26T16:35:22.753856Z",
+        "views": 649902
       },
       "last_interval": null
     },
     "EWKuWxFN61U": {
       "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
         "fr"
       ],
       "sources": [
-        "music_chart:fr"
+        "search:fr:relevance:rap français clip officiel"
       ],
       "anchor": {
         "measured_at": "2026-10-26T16:17:47.517396Z",
@@ -1122,24 +698,24 @@
       },
       "last_interval": null
     },
-    "EiDcWPjkaec": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+    "EhOzz-AxBSQ": {
+      "first_seen_at": "2026-10-26T16:35:22.753856Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
-        "de"
+        "uk"
       ],
       "sources": [
-        "search:de:viewCount:Deutschrap offizielles Musikvideo"
+        "search:uk:relevance:UK rap official music video"
       ],
       "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 80636
+        "measured_at": "2026-10-26T16:35:22.753856Z",
+        "views": 5905
       },
       "last_interval": null
     },
     "EuFsiY8EeaM": {
       "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
         "fr"
       ],
@@ -1152,69 +728,24 @@
       },
       "last_interval": null
     },
-    "EydlVaRcFyk": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
-      "market_candidates": [
-        "uk"
-      ],
-      "sources": [
-        "search:uk:viewCount:UK rap official music video"
-      ],
-      "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 281113
-      },
-      "last_interval": null
-    },
-    "FANOH74qkQ0": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+    "F_7vqw-PZ3o": {
+      "first_seen_at": "2026-10-26T16:35:22.753856Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
         "us"
       ],
       "sources": [
-        "search:us:date:hip hop official audio"
+        "search:us:date:US rap official music video"
       ],
       "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 8
-      },
-      "last_interval": null
-    },
-    "FJ63j_90BfY": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
-      "market_candidates": [
-        "us"
-      ],
-      "sources": [
-        "search:us:viewCount:hip hop official audio"
-      ],
-      "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 2816523
-      },
-      "last_interval": null
-    },
-    "FJq12gj1Fvc": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
-      "market_candidates": [
-        "de"
-      ],
-      "sources": [
-        "search:de:viewCount:Deutschrap official audio"
-      ],
-      "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 35508
+        "measured_at": "2026-10-26T16:35:22.753856Z",
+        "views": 1
       },
       "last_interval": null
     },
     "FzWIDqnzMNE": {
       "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
         "uk"
       ],
@@ -1227,69 +758,39 @@
       },
       "last_interval": null
     },
-    "GEP8WwFblF8": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
-      "market_candidates": [
-        "de"
-      ],
-      "sources": [
-        "music_chart:de"
-      ],
-      "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 5010531
-      },
-      "last_interval": null
-    },
-    "GPNbnromGgk": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
-      "market_candidates": [
-        "uk"
-      ],
-      "sources": [
-        "music_chart:uk"
-      ],
-      "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 2015393
-      },
-      "last_interval": null
-    },
-    "GdNEZhWKI7c": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
-      "market_candidates": [
-        "uk"
-      ],
-      "sources": [
-        "search:uk:viewCount:UK rap official music video"
-      ],
-      "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 252951
-      },
-      "last_interval": null
-    },
-    "Glhmg77LfAo": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+    "GJQmrJ5iPzE": {
+      "first_seen_at": "2026-10-26T16:35:22.753856Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
         "us"
       ],
       "sources": [
-        "search:us:viewCount:rap official music video"
+        "search:us:date:American hip hop official audio"
       ],
       "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 5368439
+        "measured_at": "2026-10-26T16:35:22.753856Z",
+        "views": 5
+      },
+      "last_interval": null
+    },
+    "GqM4ZIa6C4Y": {
+      "first_seen_at": "2026-10-26T16:35:22.753856Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
+      "market_candidates": [
+        "us"
+      ],
+      "sources": [
+        "search:us:date:American hip hop official audio"
+      ],
+      "anchor": {
+        "measured_at": "2026-10-26T16:35:22.753856Z",
+        "views": 1
       },
       "last_interval": null
     },
     "HUMnGCk4WRQ": {
       "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
         "uk"
       ],
@@ -1302,24 +803,39 @@
       },
       "last_interval": null
     },
-    "I6oX8rzbY6E": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+    "Hy9zASfvviQ": {
+      "first_seen_at": "2026-10-26T16:35:22.753856Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
-        "de"
+        "uk"
       ],
       "sources": [
-        "music_chart:de"
+        "search:uk:relevance:UK rap official music video"
       ],
       "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 3177326
+        "measured_at": "2026-10-26T16:35:22.753856Z",
+        "views": 90850
+      },
+      "last_interval": null
+    },
+    "IW4eEcv70tM": {
+      "first_seen_at": "2026-10-26T16:35:22.753856Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
+      "market_candidates": [
+        "us"
+      ],
+      "sources": [
+        "search:us:date:American hip hop official audio"
+      ],
+      "anchor": {
+        "measured_at": "2026-10-26T16:35:22.753856Z",
+        "views": 13
       },
       "last_interval": null
     },
     "IXMp0PIvz1s": {
       "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
         "fr"
       ],
@@ -1332,69 +848,9 @@
       },
       "last_interval": null
     },
-    "IZGuL3s4wS8": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
-      "market_candidates": [
-        "fr"
-      ],
-      "sources": [
-        "music_chart:fr"
-      ],
-      "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 1550568
-      },
-      "last_interval": null
-    },
-    "IuKzzRqB77o": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
-      "market_candidates": [
-        "us"
-      ],
-      "sources": [
-        "search:us:date:hip hop official audio"
-      ],
-      "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 64
-      },
-      "last_interval": null
-    },
-    "Iuuck33u7N8": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
-      "market_candidates": [
-        "de"
-      ],
-      "sources": [
-        "music_chart:de"
-      ],
-      "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 595619
-      },
-      "last_interval": null
-    },
-    "Iy5nOfzOejI": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
-      "market_candidates": [
-        "de"
-      ],
-      "sources": [
-        "music_chart:de"
-      ],
-      "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 1733788
-      },
-      "last_interval": null
-    },
     "J0EPugcCFsc": {
       "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
         "fr"
       ],
@@ -1402,29 +858,14 @@
         "search:fr:date:rap français clip officiel"
       ],
       "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 107
-      },
-      "last_interval": null
-    },
-    "J1YNGHY3hDs": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
-      "market_candidates": [
-        "uk"
-      ],
-      "sources": [
-        "search:uk:viewCount:UK rap official audio"
-      ],
-      "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 21973
+        "measured_at": "2026-10-26T16:35:22.753856Z",
+        "views": 104
       },
       "last_interval": null
     },
     "JS1mEAzesS4": {
       "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
         "uk"
       ],
@@ -1437,24 +878,24 @@
       },
       "last_interval": null
     },
-    "JWxoRY7AFSw": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+    "JdXdQsP2_9M": {
+      "first_seen_at": "2026-10-26T16:35:22.753856Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
         "us"
       ],
       "sources": [
-        "music_chart:us"
+        "search:us:relevance:US rap official music video"
       ],
       "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 5349183
+        "measured_at": "2026-10-26T16:35:22.753856Z",
+        "views": 2050652
       },
       "last_interval": null
     },
     "JibB89BP0HE": {
       "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
         "fr"
       ],
@@ -1467,69 +908,24 @@
       },
       "last_interval": null
     },
-    "JxbZlKM-CXo": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+    "K9KE3WZchho": {
+      "first_seen_at": "2026-10-26T16:35:22.753856Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
-        "us"
+        "fr"
       ],
       "sources": [
-        "search:us:date:hip hop official audio"
+        "search:fr:relevance:rap français clip officiel"
       ],
       "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 2
-      },
-      "last_interval": null
-    },
-    "K1N8NAWhQmg": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
-      "market_candidates": [
-        "de"
-      ],
-      "sources": [
-        "search:de:viewCount:Deutschrap offizielles Musikvideo"
-      ],
-      "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 80914
-      },
-      "last_interval": null
-    },
-    "K1ltjpSiC3I": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
-      "market_candidates": [
-        "us"
-      ],
-      "sources": [
-        "search:us:date:rap official music video"
-      ],
-      "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 942
-      },
-      "last_interval": null
-    },
-    "KFnaxeMBiBg": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
-      "market_candidates": [
-        "de"
-      ],
-      "sources": [
-        "search:de:viewCount:Deutschrap official audio"
-      ],
-      "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 37952
+        "measured_at": "2026-10-26T16:35:22.753856Z",
+        "views": 27867
       },
       "last_interval": null
     },
     "Kap-ZJrLbww": {
       "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
         "de"
       ],
@@ -1544,7 +940,7 @@
     },
     "KhOV9TRId2Y": {
       "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
         "de"
       ],
@@ -1557,24 +953,9 @@
       },
       "last_interval": null
     },
-    "LB72Mbd88mU": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
-      "market_candidates": [
-        "uk"
-      ],
-      "sources": [
-        "music_chart:uk"
-      ],
-      "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 9183876
-      },
-      "last_interval": null
-    },
     "LCQDYvAropM": {
       "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
         "fr"
       ],
@@ -1587,74 +968,14 @@
       },
       "last_interval": null
     },
-    "LKWovvWic98": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
-      "market_candidates": [
-        "fr"
-      ],
-      "sources": [
-        "music_chart:fr"
-      ],
-      "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 695368
-      },
-      "last_interval": null
-    },
-    "La4g9CSXvus": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
-      "market_candidates": [
-        "us"
-      ],
-      "sources": [
-        "search:us:viewCount:rap official music video"
-      ],
-      "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 5882503
-      },
-      "last_interval": null
-    },
-    "Lca7VGqAHaY": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
-      "market_candidates": [
-        "us"
-      ],
-      "sources": [
-        "search:us:viewCount:hip hop official audio"
-      ],
-      "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 2026401
-      },
-      "last_interval": null
-    },
-    "Lqzc98tpYJ0": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
-      "market_candidates": [
-        "fr"
-      ],
-      "sources": [
-        "search:fr:viewCount:rap français clip officiel"
-      ],
-      "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 1380354
-      },
-      "last_interval": null
-    },
     "LwkrRv7_rY4": {
       "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
         "us"
       ],
       "sources": [
-        "search:us:date:hip hop official audio"
+        "search:us:date:American hip hop official audio"
       ],
       "anchor": {
         "measured_at": "2026-10-26T16:17:47.517396Z",
@@ -1662,39 +983,24 @@
       },
       "last_interval": null
     },
-    "MDxxtCcBK84": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+    "MFVjoPcfVBs": {
+      "first_seen_at": "2026-10-26T16:35:22.753856Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
-        "uk"
+        "us"
       ],
       "sources": [
-        "search:uk:viewCount:UK rap official audio"
+        "search:us:relevance:US rap official music video"
       ],
       "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 178232
-      },
-      "last_interval": null
-    },
-    "MJrp25uy5Eo": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
-      "market_candidates": [
-        "fr"
-      ],
-      "sources": [
-        "music_chart:fr"
-      ],
-      "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 206882
+        "measured_at": "2026-10-26T16:35:22.753856Z",
+        "views": 30795
       },
       "last_interval": null
     },
     "MLh-byvE650": {
       "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
         "fr"
       ],
@@ -1702,50 +1008,49 @@
         "search:fr:date:rap français clip officiel"
       ],
       "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 1113
+        "measured_at": "2026-10-26T16:35:22.753856Z",
+        "views": 1112
       },
       "last_interval": null
     },
-    "Mg6aZJXf2_w": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+    "MWv366ytle4": {
+      "first_seen_at": "2026-10-26T16:35:22.753856Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
         "us"
       ],
       "sources": [
-        "search:us:date:hip hop official audio"
+        "search:us:relevance:American hip hop official audio"
       ],
       "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 0
+        "measured_at": "2026-10-26T16:35:22.753856Z",
+        "views": 78
       },
       "last_interval": null
     },
-    "Mmw-PpWhKFg": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+    "Mcdwj_aCmvM": {
+      "first_seen_at": "2026-10-26T16:35:22.753856Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
         "us"
       ],
       "sources": [
-        "search:us:viewCount:rap official music video"
+        "search:us:relevance:American hip hop official audio"
       ],
       "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 28447940
+        "measured_at": "2026-10-26T16:35:22.753856Z",
+        "views": 114
       },
       "last_interval": null
     },
     "Myk4p8OMiDk": {
       "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
         "fr"
       ],
       "sources": [
-        "search:fr:viewCount:rap français audio officiel",
-        "search:fr:viewCount:rap français clip officiel"
+        "search:fr:relevance:rap français audio officiel"
       ],
       "anchor": {
         "measured_at": "2026-10-26T16:17:47.517396Z",
@@ -1753,24 +1058,9 @@
       },
       "last_interval": null
     },
-    "ND6ohzsJcaY": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
-      "market_candidates": [
-        "de"
-      ],
-      "sources": [
-        "search:de:viewCount:Deutschrap official audio"
-      ],
-      "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 168035
-      },
-      "last_interval": null
-    },
     "O-aTHbKro5w": {
       "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
         "fr"
       ],
@@ -1778,81 +1068,34 @@
         "search:fr:date:rap français audio officiel"
       ],
       "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 94
+        "measured_at": "2026-10-26T16:35:22.753856Z",
+        "views": 93
       },
       "last_interval": null
     },
-    "O9C0xFXNiQI": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
-      "market_candidates": [
-        "de"
-      ],
-      "sources": [
-        "search:de:viewCount:Deutschrap official audio"
-      ],
-      "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 53992
-      },
-      "last_interval": null
-    },
-    "OWbhwq9fecg": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+    "OnNC5ht0VUE": {
+      "first_seen_at": "2026-10-26T16:35:22.753856Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
         "us"
       ],
       "sources": [
-        "music_chart:us"
+        "search:us:date:US rap official music video"
       ],
       "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 5304020
-      },
-      "last_interval": null
-    },
-    "P9acqIy76Uw": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
-      "market_candidates": [
-        "us"
-      ],
-      "sources": [
-        "search:us:viewCount:hip hop official audio",
-        "search:us:viewCount:rap official music video"
-      ],
-      "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 17797475
-      },
-      "last_interval": null
-    },
-    "P9lngaRJQuU": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
-      "market_candidates": [
-        "de"
-      ],
-      "sources": [
-        "music_chart:de"
-      ],
-      "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 147205
+        "measured_at": "2026-10-26T16:35:22.753856Z",
+        "views": 154
       },
       "last_interval": null
     },
     "PN0chKQVjhc": {
       "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
         "fr"
       ],
       "sources": [
-        "search:fr:viewCount:rap français audio officiel",
-        "search:fr:viewCount:rap français clip officiel"
+        "search:fr:relevance:rap français clip officiel"
       ],
       "anchor": {
         "measured_at": "2026-10-26T16:17:47.517396Z",
@@ -1860,9 +1103,24 @@
       },
       "last_interval": null
     },
+    "PNtr3vhqpKQ": {
+      "first_seen_at": "2026-10-26T16:35:22.753856Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
+      "market_candidates": [
+        "de"
+      ],
+      "sources": [
+        "search:de:relevance:Deutschrap official audio"
+      ],
+      "anchor": {
+        "measured_at": "2026-10-26T16:35:22.753856Z",
+        "views": 3758
+      },
+      "last_interval": null
+    },
     "PT3gCxa8fm4": {
       "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
         "de"
       ],
@@ -1877,7 +1135,7 @@
     },
     "PTKGUNMWyeU": {
       "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
         "uk"
       ],
@@ -1890,29 +1148,14 @@
       },
       "last_interval": null
     },
-    "PnrWO3mo-uE": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
-      "market_candidates": [
-        "uk"
-      ],
-      "sources": [
-        "search:uk:viewCount:UK rap official audio"
-      ],
-      "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 146269
-      },
-      "last_interval": null
-    },
     "PuXgm04fJl0": {
       "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
         "uk"
       ],
       "sources": [
-        "search:uk:viewCount:UK rap official audio"
+        "search:uk:relevance:UK rap official audio"
       ],
       "anchor": {
         "measured_at": "2026-10-26T16:17:47.517396Z",
@@ -1920,31 +1163,32 @@
       },
       "last_interval": null
     },
-    "PvgQCefockg": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+    "Q67Kmw-2dt4": {
+      "first_seen_at": "2026-10-26T16:35:22.753856Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
-        "uk"
+        "us"
       ],
       "sources": [
-        "search:uk:viewCount:UK rap official audio"
+        "search:us:relevance:US rap official music video"
       ],
       "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 24128
+        "measured_at": "2026-10-26T16:35:22.753856Z",
+        "views": 14371
       },
       "last_interval": null
     },
     "QFmMN7TfXlA": {
       "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
-        "uk"
+        "uk",
+        "us"
       ],
       "sources": [
-        "music_chart:uk",
-        "search:uk:viewCount:UK rap official audio",
-        "search:uk:viewCount:UK rap official music video"
+        "search:uk:relevance:UK rap official audio",
+        "search:uk:relevance:UK rap official music video",
+        "search:us:relevance:US rap official music video"
       ],
       "anchor": {
         "measured_at": "2026-10-26T16:17:47.517396Z",
@@ -1952,84 +1196,84 @@
       },
       "last_interval": null
     },
-    "Q_0VNPZUS34": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+    "QM-xdFPIuoo": {
+      "first_seen_at": "2026-10-26T16:35:22.753856Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
         "de"
       ],
       "sources": [
-        "music_chart:de"
+        "search:de:relevance:Deutschrap official audio"
       ],
       "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 2844952
+        "measured_at": "2026-10-26T16:35:22.753856Z",
+        "views": 75347
       },
       "last_interval": null
     },
-    "RQAVwU6VcKw": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+    "Qd76DppRIjk": {
+      "first_seen_at": "2026-10-26T16:35:22.753856Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
         "us"
       ],
       "sources": [
-        "search:us:date:rap official music video"
+        "search:us:relevance:US rap official music video"
       ],
       "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 8
+        "measured_at": "2026-10-26T16:35:22.753856Z",
+        "views": 1135575
       },
       "last_interval": null
     },
-    "RXFA6LT7osw": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+    "R3TG0VCPeG4": {
+      "first_seen_at": "2026-10-26T16:35:22.753856Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
         "us"
       ],
       "sources": [
-        "search:us:viewCount:rap official music video"
+        "search:us:date:US rap official music video"
       ],
       "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 24447418
+        "measured_at": "2026-10-26T16:35:22.753856Z",
+        "views": 0
       },
       "last_interval": null
     },
-    "RodFut_ApBE": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+    "RK0MGVtDQx0": {
+      "first_seen_at": "2026-10-26T16:35:22.753856Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
-        "de"
+        "uk"
       ],
       "sources": [
-        "search:de:viewCount:Deutschrap offizielles Musikvideo"
+        "search:uk:relevance:UK rap official music video"
       ],
       "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 18525
+        "measured_at": "2026-10-26T16:35:22.753856Z",
+        "views": 2340
       },
       "last_interval": null
     },
-    "RxXdm2T9jwo": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+    "RQrBNovtQ0w": {
+      "first_seen_at": "2026-10-26T16:35:22.753856Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
         "us"
       ],
       "sources": [
-        "music_chart:us"
+        "search:us:relevance:American hip hop official audio"
       ],
       "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 241792
+        "measured_at": "2026-10-26T16:35:22.753856Z",
+        "views": 15
       },
       "last_interval": null
     },
     "Rz-Phq_7ft4": {
       "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
         "de"
       ],
@@ -2044,7 +1288,7 @@
     },
     "S2QYAM-_wDw": {
       "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
         "fr"
       ],
@@ -2057,39 +1301,9 @@
       },
       "last_interval": null
     },
-    "SGMbCKKW4P8": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
-      "market_candidates": [
-        "us"
-      ],
-      "sources": [
-        "search:us:viewCount:hip hop official audio"
-      ],
-      "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 4933353
-      },
-      "last_interval": null
-    },
-    "T9aCq7lA3po": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
-      "market_candidates": [
-        "de"
-      ],
-      "sources": [
-        "search:de:viewCount:Deutschrap offizielles Musikvideo"
-      ],
-      "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 63734
-      },
-      "last_interval": null
-    },
-    "Teq1O5eG-58": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+    "SeFLJSOkgIw": {
+      "first_seen_at": "2026-10-26T16:35:22.753856Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
         "uk"
       ],
@@ -2097,21 +1311,65 @@
         "search:uk:date:UK rap official audio"
       ],
       "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 30
+        "measured_at": "2026-10-26T16:35:22.753856Z",
+        "views": 764
+      },
+      "last_interval": null
+    },
+    "SjwpHHdbrLU": {
+      "first_seen_at": "2026-10-26T16:35:22.753856Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
+      "market_candidates": [
+        "us"
+      ],
+      "sources": [
+        "search:us:date:US rap official music video"
+      ],
+      "anchor": {
+        "measured_at": "2026-10-26T16:35:22.753856Z",
+        "views": 1
+      },
+      "last_interval": null
+    },
+    "Sr7QgLJjf68": {
+      "first_seen_at": "2026-10-26T16:35:22.753856Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
+      "market_candidates": [
+        "us"
+      ],
+      "sources": [
+        "search:us:relevance:American hip hop official audio"
+      ],
+      "anchor": {
+        "measured_at": "2026-10-26T16:35:22.753856Z",
+        "views": 2218
+      },
+      "last_interval": null
+    },
+    "U-zBbmCnqmo": {
+      "first_seen_at": "2026-10-26T16:35:22.753856Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
+      "market_candidates": [
+        "us"
+      ],
+      "sources": [
+        "search:us:relevance:US rap official music video"
+      ],
+      "anchor": {
+        "measured_at": "2026-10-26T16:35:22.753856Z",
+        "views": 251
       },
       "last_interval": null
     },
     "UK2TM32VHH8": {
       "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
         "fr"
       ],
       "sources": [
-        "music_chart:fr",
-        "search:fr:viewCount:rap français audio officiel",
-        "search:fr:viewCount:rap français clip officiel"
+        "search:fr:relevance:rap français audio officiel",
+        "search:fr:relevance:rap français clip officiel"
       ],
       "anchor": {
         "measured_at": "2026-10-26T16:17:47.517396Z",
@@ -2119,60 +1377,14 @@
       },
       "last_interval": null
     },
-    "UMqV-ycSJro": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
-      "market_candidates": [
-        "de"
-      ],
-      "sources": [
-        "music_chart:de"
-      ],
-      "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 109169
-      },
-      "last_interval": null
-    },
-    "URzVbs2vgX4": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
-      "market_candidates": [
-        "fr"
-      ],
-      "sources": [
-        "music_chart:fr",
-        "search:fr:viewCount:rap français clip officiel"
-      ],
-      "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 1578036
-      },
-      "last_interval": null
-    },
-    "UcvGS9ohazU": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
-      "market_candidates": [
-        "us"
-      ],
-      "sources": [
-        "music_chart:us"
-      ],
-      "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 2323401
-      },
-      "last_interval": null
-    },
     "UjysObqDj_U": {
       "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
         "us"
       ],
       "sources": [
-        "search:us:date:hip hop official audio"
+        "search:us:date:American hip hop official audio"
       ],
       "anchor": {
         "measured_at": "2026-10-26T16:17:47.517396Z",
@@ -2180,39 +1392,39 @@
       },
       "last_interval": null
     },
-    "UvPldTlsQXA": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+    "Um1e1xxP6xU": {
+      "first_seen_at": "2026-10-26T16:35:22.753856Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
+      "market_candidates": [
+        "us"
+      ],
+      "sources": [
+        "search:us:date:American hip hop official audio"
+      ],
+      "anchor": {
+        "measured_at": "2026-10-26T16:35:22.753856Z",
+        "views": 14
+      },
+      "last_interval": null
+    },
+    "UzAI0_wDx3k": {
+      "first_seen_at": "2026-10-26T16:35:22.753856Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
         "de"
       ],
       "sources": [
-        "music_chart:de"
+        "search:de:relevance:Deutschrap official audio"
       ],
       "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 1174582
-      },
-      "last_interval": null
-    },
-    "V7ECYjHuH1Y": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
-      "market_candidates": [
-        "uk"
-      ],
-      "sources": [
-        "search:uk:viewCount:UK rap official audio"
-      ],
-      "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 23254
+        "measured_at": "2026-10-26T16:35:22.753856Z",
+        "views": 1588
       },
       "last_interval": null
     },
     "V7jSiFKdgHA": {
       "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
         "fr"
       ],
@@ -2227,14 +1439,13 @@
     },
     "VJbBI7T3a-U": {
       "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
         "fr"
       ],
       "sources": [
-        "music_chart:fr",
-        "search:fr:viewCount:rap français audio officiel",
-        "search:fr:viewCount:rap français clip officiel"
+        "search:fr:relevance:rap français audio officiel",
+        "search:fr:relevance:rap français clip officiel"
       ],
       "anchor": {
         "measured_at": "2026-10-26T16:17:47.517396Z",
@@ -2242,24 +1453,9 @@
       },
       "last_interval": null
     },
-    "VUIgT-E4IS0": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
-      "market_candidates": [
-        "us"
-      ],
-      "sources": [
-        "music_chart:us"
-      ],
-      "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 26837888
-      },
-      "last_interval": null
-    },
     "Vb_khriTXmM": {
       "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
         "uk"
       ],
@@ -2272,55 +1468,9 @@
       },
       "last_interval": null
     },
-    "VgmeHYDayL8": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
-      "market_candidates": [
-        "fr"
-      ],
-      "sources": [
-        "search:fr:viewCount:rap français audio officiel",
-        "search:fr:viewCount:rap français clip officiel"
-      ],
-      "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 4909650
-      },
-      "last_interval": null
-    },
-    "ViaPqBW7LAs": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
-      "market_candidates": [
-        "us"
-      ],
-      "sources": [
-        "search:us:date:hip hop official audio"
-      ],
-      "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 5
-      },
-      "last_interval": null
-    },
-    "VmM1_PlNVNw": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
-      "market_candidates": [
-        "de"
-      ],
-      "sources": [
-        "search:de:viewCount:Deutschrap offizielles Musikvideo"
-      ],
-      "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 45676
-      },
-      "last_interval": null
-    },
     "VsGZW6dugpo": {
       "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
         "fr"
       ],
@@ -2333,39 +1483,9 @@
       },
       "last_interval": null
     },
-    "VyrCW20XfhQ": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
-      "market_candidates": [
-        "de"
-      ],
-      "sources": [
-        "search:de:viewCount:Deutschrap official audio"
-      ],
-      "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 145010
-      },
-      "last_interval": null
-    },
-    "W6IVAszKxUU": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
-      "market_candidates": [
-        "us"
-      ],
-      "sources": [
-        "search:us:date:rap official music video"
-      ],
-      "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 1
-      },
-      "last_interval": null
-    },
     "WZE-F8H1iwY": {
       "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
         "de"
       ],
@@ -2380,7 +1500,7 @@
     },
     "WZuS74ydOn0": {
       "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
         "de"
       ],
@@ -2393,9 +1513,24 @@
       },
       "last_interval": null
     },
+    "WabOX6sW6zk": {
+      "first_seen_at": "2026-10-26T16:35:22.753856Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
+      "market_candidates": [
+        "uk"
+      ],
+      "sources": [
+        "search:uk:relevance:UK rap official music video"
+      ],
+      "anchor": {
+        "measured_at": "2026-10-26T16:35:22.753856Z",
+        "views": 510
+      },
+      "last_interval": null
+    },
     "WjahLCxccLk": {
       "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
         "de"
       ],
@@ -2408,24 +1543,9 @@
       },
       "last_interval": null
     },
-    "X9h8B-YN0pQ": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
-      "market_candidates": [
-        "us"
-      ],
-      "sources": [
-        "search:us:date:rap official music video"
-      ],
-      "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 76
-      },
-      "last_interval": null
-    },
     "XGD5samW6PE": {
       "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
         "de"
       ],
@@ -2433,65 +1553,79 @@
         "search:de:date:Deutschrap official audio"
       ],
       "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 502
+        "measured_at": "2026-10-26T16:35:22.753856Z",
+        "views": 501
       },
       "last_interval": null
     },
-    "XK_-TFvqCHk": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+    "XMul0cgoIqM": {
+      "first_seen_at": "2026-10-26T16:35:22.753856Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
         "de"
       ],
       "sources": [
-        "search:de:viewCount:Deutschrap official audio"
+        "search:de:relevance:Deutschrap official audio"
       ],
       "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 89476
+        "measured_at": "2026-10-26T16:35:22.753856Z",
+        "views": 44
       },
       "last_interval": null
     },
-    "YF6_74xAhPY": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+    "XSMvnswSrU0": {
+      "first_seen_at": "2026-10-26T16:35:22.753856Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
-        "uk"
+        "de"
       ],
       "sources": [
-        "search:uk:viewCount:UK rap official audio"
+        "search:de:relevance:Deutschrap offizielles Musikvideo"
       ],
       "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 21083
+        "measured_at": "2026-10-26T16:35:22.753856Z",
+        "views": 338258
       },
       "last_interval": null
     },
-    "YSCtsnSoO0c": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+    "YH7ia9a81gI": {
+      "first_seen_at": "2026-10-26T16:35:22.753856Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
+      "market_candidates": [
+        "de"
+      ],
+      "sources": [
+        "search:de:relevance:Deutschrap offizielles Musikvideo"
+      ],
+      "anchor": {
+        "measured_at": "2026-10-26T16:35:22.753856Z",
+        "views": 624
+      },
+      "last_interval": null
+    },
+    "YTPwJG03vQk": {
+      "first_seen_at": "2026-10-26T16:35:22.753856Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
         "fr"
       ],
       "sources": [
-        "music_chart:fr"
+        "search:fr:date:rap français audio officiel"
       ],
       "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 140756
+        "measured_at": "2026-10-26T16:35:22.753856Z",
+        "views": 2
       },
       "last_interval": null
     },
     "YZ4lhXPFdJ4": {
       "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
         "uk"
       ],
       "sources": [
-        "search:uk:viewCount:UK rap official audio",
-        "search:uk:viewCount:UK rap official music video"
+        "search:uk:relevance:UK rap official audio"
       ],
       "anchor": {
         "measured_at": "2026-10-26T16:17:47.517396Z",
@@ -2499,44 +1633,30 @@
       },
       "last_interval": null
     },
-    "YfdKRy5IzgA": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+    "Ys2W5oOdezM": {
+      "first_seen_at": "2026-10-26T16:35:22.753856Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
         "us"
       ],
       "sources": [
-        "search:us:date:hip hop official audio"
+        "search:us:relevance:American hip hop official audio"
       ],
       "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 0
-      },
-      "last_interval": null
-    },
-    "YvNQ53dCwAw": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
-      "market_candidates": [
-        "fr"
-      ],
-      "sources": [
-        "music_chart:fr"
-      ],
-      "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 589688
+        "measured_at": "2026-10-26T16:35:22.753856Z",
+        "views": 52230
       },
       "last_interval": null
     },
     "Yvg6sC31HC4": {
       "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
         "de"
       ],
       "sources": [
-        "search:de:viewCount:Deutschrap official audio"
+        "search:de:relevance:Deutschrap official audio",
+        "search:de:relevance:Deutschrap offizielles Musikvideo"
       ],
       "anchor": {
         "measured_at": "2026-10-26T16:17:47.517396Z",
@@ -2546,7 +1666,7 @@
     },
     "ZAXBmpykgF0": {
       "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
         "fr"
       ],
@@ -2559,39 +1679,24 @@
       },
       "last_interval": null
     },
-    "ZClRRspuDhA": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+    "ZU04OcV-DWY": {
+      "first_seen_at": "2026-10-26T16:35:22.753856Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
         "uk"
       ],
       "sources": [
-        "search:uk:viewCount:UK rap official audio"
+        "search:uk:relevance:UK rap official audio"
       ],
       "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 30366
-      },
-      "last_interval": null
-    },
-    "Zb3H_W6z9Ak": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
-      "market_candidates": [
-        "us"
-      ],
-      "sources": [
-        "search:us:viewCount:hip hop official audio"
-      ],
-      "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 1606668
+        "measured_at": "2026-10-26T16:35:22.753856Z",
+        "views": 266935
       },
       "last_interval": null
     },
     "ZjWt-rXE7I8": {
       "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
         "de"
       ],
@@ -2604,14 +1709,29 @@
       },
       "last_interval": null
     },
-    "ZxSqcnLbm1k": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+    "ZpLQ07ecAVA": {
+      "first_seen_at": "2026-10-26T16:35:22.753856Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
         "uk"
       ],
       "sources": [
-        "search:uk:viewCount:UK rap official music video"
+        "search:uk:date:UK rap official audio"
+      ],
+      "anchor": {
+        "measured_at": "2026-10-26T16:35:22.753856Z",
+        "views": 58
+      },
+      "last_interval": null
+    },
+    "ZxSqcnLbm1k": {
+      "first_seen_at": "2026-10-26T16:17:47.517396Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
+      "market_candidates": [
+        "uk"
+      ],
+      "sources": [
+        "search:uk:relevance:UK rap official music video"
       ],
       "anchor": {
         "measured_at": "2026-10-26T16:17:47.517396Z",
@@ -2621,7 +1741,7 @@
     },
     "_U82HN0zx1Q": {
       "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
         "uk"
       ],
@@ -2634,30 +1754,44 @@
       },
       "last_interval": null
     },
-    "aFssZKYEB2Q": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+    "_tqNLOeqdac": {
+      "first_seen_at": "2026-10-26T16:35:22.753856Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
         "us"
       ],
       "sources": [
-        "search:us:viewCount:hip hop official audio",
-        "search:us:viewCount:rap official music video"
+        "search:us:relevance:American hip hop official audio"
       ],
       "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 11726165
+        "measured_at": "2026-10-26T16:35:22.753856Z",
+        "views": 18
+      },
+      "last_interval": null
+    },
+    "aBFA1I_kLYI": {
+      "first_seen_at": "2026-10-26T16:35:22.753856Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
+      "market_candidates": [
+        "us"
+      ],
+      "sources": [
+        "search:us:relevance:American hip hop official audio"
+      ],
+      "anchor": {
+        "measured_at": "2026-10-26T16:35:22.753856Z",
+        "views": 58
       },
       "last_interval": null
     },
     "afckk3ajjP0": {
       "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
         "us"
       ],
       "sources": [
-        "music_chart:us"
+        "search:us:relevance:US rap official music video"
       ],
       "anchor": {
         "measured_at": "2026-10-26T16:17:47.517396Z",
@@ -2665,130 +1799,175 @@
       },
       "last_interval": null
     },
-    "bnu_Db3wCv8": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+    "boOwhaHIQwc": {
+      "first_seen_at": "2026-10-26T16:35:22.753856Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
         "us"
       ],
       "sources": [
-        "search:us:viewCount:rap official music video"
+        "search:us:date:American hip hop official audio"
       ],
       "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 34829984
+        "measured_at": "2026-10-26T16:35:22.753856Z",
+        "views": 135
       },
       "last_interval": null
     },
-    "dw0haBZsA5o": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+    "bwfde78vkcU": {
+      "first_seen_at": "2026-10-26T16:35:22.753856Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
-        "uk"
+        "fr"
       ],
       "sources": [
-        "search:uk:viewCount:UK rap official audio",
-        "search:uk:viewCount:UK rap official music video"
+        "search:fr:relevance:rap français audio officiel"
       ],
       "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 458517
+        "measured_at": "2026-10-26T16:35:22.753856Z",
+        "views": 211606
       },
       "last_interval": null
     },
-    "eDQ_VpR8zGQ": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+    "c-TPxLKhbC0": {
+      "first_seen_at": "2026-10-26T16:35:22.753856Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
         "us"
       ],
       "sources": [
-        "search:us:date:rap official music video"
+        "search:us:relevance:US rap official music video"
       ],
       "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 5588
+        "measured_at": "2026-10-26T16:35:22.753856Z",
+        "views": 2457287
       },
       "last_interval": null
     },
-    "eIurkYG78Nc": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+    "cBhJ33aJcCI": {
+      "first_seen_at": "2026-10-26T16:35:22.753856Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
+      "market_candidates": [
+        "us"
+      ],
+      "sources": [
+        "search:us:date:US rap official music video"
+      ],
+      "anchor": {
+        "measured_at": "2026-10-26T16:35:22.753856Z",
+        "views": 1203
+      },
+      "last_interval": null
+    },
+    "cQuQ807Qis8": {
+      "first_seen_at": "2026-10-26T16:35:22.753856Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
         "de"
       ],
       "sources": [
-        "music_chart:de"
+        "search:de:relevance:Deutschrap official audio"
       ],
       "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 245780
+        "measured_at": "2026-10-26T16:35:22.753856Z",
+        "views": 102
       },
       "last_interval": null
     },
-    "eLSwPumZNyk": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+    "cswhc59iZi0": {
+      "first_seen_at": "2026-10-26T16:35:22.753856Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
-        "uk"
+        "us"
       ],
       "sources": [
-        "music_chart:uk"
+        "search:us:date:American hip hop official audio",
+        "search:us:relevance:American hip hop official audio"
       ],
       "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 129754
+        "measured_at": "2026-10-26T16:35:22.753856Z",
+        "views": 6
       },
       "last_interval": null
     },
-    "eN8avVVelSc": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+    "cxxpxyTfIpo": {
+      "first_seen_at": "2026-10-26T16:35:22.753856Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
+      "market_candidates": [
+        "us"
+      ],
+      "sources": [
+        "search:us:date:US rap official music video"
+      ],
+      "anchor": {
+        "measured_at": "2026-10-26T16:35:22.753856Z",
+        "views": 291
+      },
+      "last_interval": null
+    },
+    "d19eQ6LwXpI": {
+      "first_seen_at": "2026-10-26T16:35:22.753856Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
+      "market_candidates": [
+        "us"
+      ],
+      "sources": [
+        "search:us:date:US rap official music video"
+      ],
+      "anchor": {
+        "measured_at": "2026-10-26T16:35:22.753856Z",
+        "views": 227
+      },
+      "last_interval": null
+    },
+    "dQPJ7q_tFXQ": {
+      "first_seen_at": "2026-10-26T16:35:22.753856Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
         "de"
       ],
       "sources": [
-        "music_chart:de"
+        "search:de:relevance:Deutschrap offizielles Musikvideo"
       ],
       "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 1203421
+        "measured_at": "2026-10-26T16:35:22.753856Z",
+        "views": 21049
       },
       "last_interval": null
     },
-    "eZwvViFkW4A": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+    "ehF29D7AmwA": {
+      "first_seen_at": "2026-10-26T16:35:22.753856Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
+      "market_candidates": [
+        "us"
+      ],
+      "sources": [
+        "search:us:date:American hip hop official audio"
+      ],
+      "anchor": {
+        "measured_at": "2026-10-26T16:35:22.753856Z",
+        "views": 1
+      },
+      "last_interval": null
+    },
+    "emupyyxdXH4": {
+      "first_seen_at": "2026-10-26T16:35:22.753856Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
         "de"
       ],
       "sources": [
-        "search:de:viewCount:Deutschrap offizielles Musikvideo"
+        "search:de:relevance:Deutschrap offizielles Musikvideo"
       ],
       "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 33555
-      },
-      "last_interval": null
-    },
-    "f6jF261BeoU": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
-      "market_candidates": [
-        "de"
-      ],
-      "sources": [
-        "search:de:viewCount:Deutschrap offizielles Musikvideo"
-      ],
-      "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 25242
+        "measured_at": "2026-10-26T16:35:22.753856Z",
+        "views": 283487
       },
       "last_interval": null
     },
     "fDkA7grVrwY": {
       "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
         "de"
       ],
@@ -2801,167 +1980,91 @@
       },
       "last_interval": null
     },
-    "fS5TUTKXFzI": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
-      "market_candidates": [
-        "de"
-      ],
-      "sources": [
-        "search:de:viewCount:Deutschrap official audio"
-      ],
-      "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 75886
-      },
-      "last_interval": null
-    },
-    "fmay_vn-qCA": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
-      "market_candidates": [
-        "fr"
-      ],
-      "sources": [
-        "music_chart:fr",
-        "search:fr:viewCount:rap français clip officiel"
-      ],
-      "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 1728373
-      },
-      "last_interval": null
-    },
-    "fzI15v_XH4k": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
-      "market_candidates": [
-        "de"
-      ],
-      "sources": [
-        "music_chart:de"
-      ],
-      "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 1325228
-      },
-      "last_interval": null
-    },
-    "g7BYwZ3QFKo": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
-      "market_candidates": [
-        "us"
-      ],
-      "sources": [
-        "music_chart:us"
-      ],
-      "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 938413
-      },
-      "last_interval": null
-    },
-    "gApykAFAgbg": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
-      "market_candidates": [
-        "us"
-      ],
-      "sources": [
-        "music_chart:us"
-      ],
-      "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 4046642
-      },
-      "last_interval": null
-    },
-    "gEE5AIv0i5c": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
-      "market_candidates": [
-        "uk",
-        "us"
-      ],
-      "sources": [
-        "music_chart:uk",
-        "music_chart:us"
-      ],
-      "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 1746002
-      },
-      "last_interval": null
-    },
-    "gOvn4KnTjMg": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
-      "market_candidates": [
-        "us"
-      ],
-      "sources": [
-        "search:us:viewCount:hip hop official audio"
-      ],
-      "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 1286441
-      },
-      "last_interval": null
-    },
-    "gTrOdynWVzE": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+    "fPmp8rj4obs": {
+      "first_seen_at": "2026-10-26T16:35:22.753856Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
         "uk"
       ],
       "sources": [
-        "music_chart:uk"
+        "search:uk:relevance:UK rap official audio"
       ],
       "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 924439
+        "measured_at": "2026-10-26T16:35:22.753856Z",
+        "views": 97503
       },
       "last_interval": null
     },
-    "gWuBQyAb7Dk": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+    "ffyAXejgnd8": {
+      "first_seen_at": "2026-10-26T16:35:22.753856Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
-        "fr"
+        "uk"
       ],
       "sources": [
-        "music_chart:fr"
+        "search:uk:relevance:UK rap official audio",
+        "search:uk:relevance:UK rap official music video"
       ],
       "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 2323607
+        "measured_at": "2026-10-26T16:35:22.753856Z",
+        "views": 78232
       },
       "last_interval": null
     },
-    "gXSQdXSPsDs": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+    "fhmqduVoU9g": {
+      "first_seen_at": "2026-10-26T16:35:22.753856Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
         "us"
       ],
       "sources": [
-        "music_chart:us"
+        "search:us:date:US rap official music video"
       ],
       "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 5605097
+        "measured_at": "2026-10-26T16:35:22.753856Z",
+        "views": 169
+      },
+      "last_interval": null
+    },
+    "ftyU1ep6X34": {
+      "first_seen_at": "2026-10-26T16:35:22.753856Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
+      "market_candidates": [
+        "de"
+      ],
+      "sources": [
+        "search:de:relevance:Deutschrap offizielles Musikvideo"
+      ],
+      "anchor": {
+        "measured_at": "2026-10-26T16:35:22.753856Z",
+        "views": 35014
+      },
+      "last_interval": null
+    },
+    "gJX5zUggKr0": {
+      "first_seen_at": "2026-10-26T16:35:22.753856Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
+      "market_candidates": [
+        "us"
+      ],
+      "sources": [
+        "search:us:relevance:American hip hop official audio"
+      ],
+      "anchor": {
+        "measured_at": "2026-10-26T16:35:22.753856Z",
+        "views": 108
       },
       "last_interval": null
     },
     "garHj54cUQs": {
       "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
         "de"
       ],
       "sources": [
-        "music_chart:de"
+        "search:de:relevance:Deutschrap official audio",
+        "search:de:relevance:Deutschrap offizielles Musikvideo"
       ],
       "anchor": {
         "measured_at": "2026-10-26T16:17:47.517396Z",
@@ -2969,9 +2072,24 @@
       },
       "last_interval": null
     },
+    "ghtCzd_JHiA": {
+      "first_seen_at": "2026-10-26T16:35:22.753856Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
+      "market_candidates": [
+        "us"
+      ],
+      "sources": [
+        "search:us:relevance:American hip hop official audio"
+      ],
+      "anchor": {
+        "measured_at": "2026-10-26T16:35:22.753856Z",
+        "views": 10
+      },
+      "last_interval": null
+    },
     "gjLqCKQgX1s": {
       "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
         "fr"
       ],
@@ -2986,7 +2104,7 @@
     },
     "gr2n3PfZ3yI": {
       "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
         "de"
       ],
@@ -2999,41 +2117,24 @@
       },
       "last_interval": null
     },
-    "gsZauX8gwxo": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+    "gufCFGILEz4": {
+      "first_seen_at": "2026-10-26T16:35:22.753856Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
-        "uk",
         "us"
       ],
       "sources": [
-        "music_chart:uk",
-        "music_chart:us"
+        "search:us:date:American hip hop official audio"
       ],
       "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 21735618
-      },
-      "last_interval": null
-    },
-    "gymUqiFJwQE": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
-      "market_candidates": [
-        "uk"
-      ],
-      "sources": [
-        "search:uk:viewCount:UK rap official audio"
-      ],
-      "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 29943
+        "measured_at": "2026-10-26T16:35:22.753856Z",
+        "views": 11
       },
       "last_interval": null
     },
     "h9ZzRdh8uTA": {
       "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
         "de"
       ],
@@ -3046,39 +2147,9 @@
       },
       "last_interval": null
     },
-    "hUw72_7UYUI": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
-      "market_candidates": [
-        "de"
-      ],
-      "sources": [
-        "search:de:viewCount:Deutschrap official audio"
-      ],
-      "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 76205
-      },
-      "last_interval": null
-    },
-    "hVYztl6LCMM": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
-      "market_candidates": [
-        "uk"
-      ],
-      "sources": [
-        "music_chart:uk"
-      ],
-      "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 149701
-      },
-      "last_interval": null
-    },
     "hbKxvw7dkss": {
       "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
         "uk"
       ],
@@ -3094,7 +2165,7 @@
     },
     "hfrc3e01ayA": {
       "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
         "uk"
       ],
@@ -3102,44 +2173,29 @@
         "search:uk:date:UK rap official music video"
       ],
       "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 780
+        "measured_at": "2026-10-26T16:35:22.753856Z",
+        "views": 779
       },
       "last_interval": null
     },
-    "hh7AcCGxtGc": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+    "hpOgcDFf8ss": {
+      "first_seen_at": "2026-10-26T16:35:22.753856Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
         "us"
       ],
       "sources": [
-        "search:us:date:rap official music video"
+        "search:us:date:US rap official music video"
       ],
       "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 2102
-      },
-      "last_interval": null
-    },
-    "i0RyrXwrxnc": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
-      "market_candidates": [
-        "us"
-      ],
-      "sources": [
-        "music_chart:us"
-      ],
-      "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 909959
+        "measured_at": "2026-10-26T16:35:22.753856Z",
+        "views": 270779
       },
       "last_interval": null
     },
     "i5hIyIsMD4o": {
       "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
         "fr"
       ],
@@ -3147,30 +2203,14 @@
         "search:fr:date:rap français audio officiel"
       ],
       "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 12
-      },
-      "last_interval": null
-    },
-    "iFaXJX7bcFA": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
-      "market_candidates": [
-        "us"
-      ],
-      "sources": [
-        "search:us:viewCount:hip hop official audio",
-        "search:us:viewCount:rap official music video"
-      ],
-      "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 8455468
+        "measured_at": "2026-10-26T16:35:22.753856Z",
+        "views": 9
       },
       "last_interval": null
     },
     "iGvaFBPeUr8": {
       "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
         "uk"
       ],
@@ -3183,24 +2223,24 @@
       },
       "last_interval": null
     },
-    "ifTAiiIKLB0": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+    "iNNWnw1lYLA": {
+      "first_seen_at": "2026-10-26T16:35:22.753856Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
-        "uk"
+        "us"
       ],
       "sources": [
-        "search:uk:date:UK rap official audio"
+        "search:us:relevance:American hip hop official audio"
       ],
       "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 168
+        "measured_at": "2026-10-26T16:35:22.753856Z",
+        "views": 94
       },
       "last_interval": null
     },
     "ioVHM9m6vYQ": {
       "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
         "de"
       ],
@@ -3213,35 +2253,30 @@
       },
       "last_interval": null
     },
-    "iqQWCYMlMw0": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+    "irKquVtULZM": {
+      "first_seen_at": "2026-10-26T16:35:22.753856Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
-        "de",
-        "fr",
-        "uk",
         "us"
       ],
       "sources": [
-        "music_chart:de",
-        "music_chart:fr",
-        "music_chart:uk",
-        "music_chart:us"
+        "search:us:date:American hip hop official audio"
       ],
       "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 15013837
+        "measured_at": "2026-10-26T16:35:22.753856Z",
+        "views": 2
       },
       "last_interval": null
     },
     "isZ89Zue8YE": {
       "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
         "de"
       ],
       "sources": [
-        "search:de:viewCount:Deutschrap official audio"
+        "search:de:relevance:Deutschrap official audio",
+        "search:de:relevance:Deutschrap offizielles Musikvideo"
       ],
       "anchor": {
         "measured_at": "2026-10-26T16:17:47.517396Z",
@@ -3249,24 +2284,39 @@
       },
       "last_interval": null
     },
-    "jKZZNlP9JYU": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+    "jMlWZNO9MBk": {
+      "first_seen_at": "2026-10-26T16:35:22.753856Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
+      "market_candidates": [
+        "uk"
+      ],
+      "sources": [
+        "search:uk:relevance:UK rap official music video"
+      ],
+      "anchor": {
+        "measured_at": "2026-10-26T16:35:22.753856Z",
+        "views": 55176
+      },
+      "last_interval": null
+    },
+    "jizn0RsEsm4": {
+      "first_seen_at": "2026-10-26T16:35:22.753856Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
         "us"
       ],
       "sources": [
-        "search:us:date:rap official music video"
+        "search:us:date:US rap official music video"
       ],
       "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 2
+        "measured_at": "2026-10-26T16:35:22.753856Z",
+        "views": 46
       },
       "last_interval": null
     },
     "jkPC5gkoMas": {
       "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
         "de"
       ],
@@ -3279,44 +2329,45 @@
       },
       "last_interval": null
     },
-    "jvsXV3m26e8": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+    "jlaC9l5czFQ": {
+      "first_seen_at": "2026-10-26T16:35:22.753856Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
         "uk"
       ],
       "sources": [
-        "search:uk:viewCount:UK rap official music video"
+        "search:uk:relevance:UK rap official music video"
       ],
       "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 470740
+        "measured_at": "2026-10-26T16:35:22.753856Z",
+        "views": 754
       },
       "last_interval": null
     },
-    "ksnN8PMf30I": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+    "kBTvBIUMSHU": {
+      "first_seen_at": "2026-10-26T16:35:22.753856Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
-        "uk"
+        "de"
       ],
       "sources": [
-        "music_chart:uk"
+        "search:de:relevance:Deutschrap offizielles Musikvideo"
       ],
       "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 2613502
+        "measured_at": "2026-10-26T16:35:22.753856Z",
+        "views": 492914
       },
       "last_interval": null
     },
     "kuIuqDJJt1w": {
       "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
         "de"
       ],
       "sources": [
-        "search:de:viewCount:Deutschrap offizielles Musikvideo"
+        "search:de:relevance:Deutschrap official audio",
+        "search:de:relevance:Deutschrap offizielles Musikvideo"
       ],
       "anchor": {
         "measured_at": "2026-10-26T16:17:47.517396Z",
@@ -3324,74 +2375,30 @@
       },
       "last_interval": null
     },
-    "lOjJZhlaEWI": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+    "lZVI8PEeSwU": {
+      "first_seen_at": "2026-10-26T16:35:22.753856Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
         "us"
       ],
       "sources": [
-        "search:us:date:hip hop official audio"
+        "search:us:date:American hip hop official audio"
       ],
       "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 0
-      },
-      "last_interval": null
-    },
-    "lbx-ZiphkEo": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
-      "market_candidates": [
-        "de"
-      ],
-      "sources": [
-        "search:de:viewCount:Deutschrap official audio"
-      ],
-      "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 86866
-      },
-      "last_interval": null
-    },
-    "lcMj-YG8H1A": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
-      "market_candidates": [
-        "uk"
-      ],
-      "sources": [
-        "search:uk:viewCount:UK rap official audio"
-      ],
-      "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 29953
-      },
-      "last_interval": null
-    },
-    "ljnmt8JSbS8": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
-      "market_candidates": [
-        "us"
-      ],
-      "sources": [
-        "search:us:date:rap official music video"
-      ],
-      "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 10
+        "measured_at": "2026-10-26T16:35:22.753856Z",
+        "views": 2747
       },
       "last_interval": null
     },
     "ll3_lt1vBZw": {
       "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
         "fr"
       ],
       "sources": [
-        "search:fr:date:rap français audio officiel"
+        "search:fr:date:rap français audio officiel",
+        "search:fr:relevance:rap français audio officiel"
       ],
       "anchor": {
         "measured_at": "2026-10-26T16:17:47.517396Z",
@@ -3399,24 +2406,39 @@
       },
       "last_interval": null
     },
-    "m13K6XabD7M": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+    "mTtmgjIGfEE": {
+      "first_seen_at": "2026-10-26T16:35:22.753856Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
+      "market_candidates": [
+        "de"
+      ],
+      "sources": [
+        "search:de:relevance:Deutschrap official audio"
+      ],
+      "anchor": {
+        "measured_at": "2026-10-26T16:35:22.753856Z",
+        "views": 3640
+      },
+      "last_interval": null
+    },
+    "mXE4Nc4dUtg": {
+      "first_seen_at": "2026-10-26T16:35:22.753856Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
         "us"
       ],
       "sources": [
-        "music_chart:us"
+        "search:us:relevance:US rap official music video"
       ],
       "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 465137
+        "measured_at": "2026-10-26T16:35:22.753856Z",
+        "views": 4115818
       },
       "last_interval": null
     },
     "meDAG_qBO0M": {
       "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
         "uk"
       ],
@@ -3429,24 +2451,24 @@
       },
       "last_interval": null
     },
-    "nDYwSQF9PnE": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+    "nRX8PlOMznE": {
+      "first_seen_at": "2026-10-26T16:35:22.753856Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
-        "us"
+        "uk"
       ],
       "sources": [
-        "search:us:date:rap official music video"
+        "search:uk:relevance:UK rap official audio"
       ],
       "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 279
+        "measured_at": "2026-10-26T16:35:22.753856Z",
+        "views": 2
       },
       "last_interval": null
     },
     "n_sUVJwUZVA": {
       "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
         "de"
       ],
@@ -3459,105 +2481,9 @@
       },
       "last_interval": null
     },
-    "nhR-Ka-aKUs": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
-      "market_candidates": [
-        "uk",
-        "us"
-      ],
-      "sources": [
-        "music_chart:uk",
-        "music_chart:us"
-      ],
-      "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 2119957
-      },
-      "last_interval": null
-    },
-    "nt0weSKarFA": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
-      "market_candidates": [
-        "us"
-      ],
-      "sources": [
-        "search:us:viewCount:hip hop official audio"
-      ],
-      "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 3498762
-      },
-      "last_interval": null
-    },
-    "ntSLQXdcW6o": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
-      "market_candidates": [
-        "fr"
-      ],
-      "sources": [
-        "music_chart:fr"
-      ],
-      "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 248007
-      },
-      "last_interval": null
-    },
-    "o---R6hn4kk": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
-      "market_candidates": [
-        "fr"
-      ],
-      "sources": [
-        "search:fr:viewCount:rap français audio officiel"
-      ],
-      "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 1373198
-      },
-      "last_interval": null
-    },
-    "oC6brLXQe4I": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
-      "market_candidates": [
-        "de",
-        "fr",
-        "uk"
-      ],
-      "sources": [
-        "music_chart:de",
-        "music_chart:fr",
-        "music_chart:uk"
-      ],
-      "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 42861773
-      },
-      "last_interval": null
-    },
-    "oHDfbng-FBU": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
-      "market_candidates": [
-        "de"
-      ],
-      "sources": [
-        "music_chart:de"
-      ],
-      "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 1901404
-      },
-      "last_interval": null
-    },
     "oKXMKnc6D_o": {
       "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
         "fr"
       ],
@@ -3570,9 +2496,55 @@
       },
       "last_interval": null
     },
+    "oVqHUU0EhP4": {
+      "first_seen_at": "2026-10-26T16:35:22.753856Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
+      "market_candidates": [
+        "us"
+      ],
+      "sources": [
+        "search:us:relevance:American hip hop official audio"
+      ],
+      "anchor": {
+        "measured_at": "2026-10-26T16:35:22.753856Z",
+        "views": 86252
+      },
+      "last_interval": null
+    },
+    "olp5plt6OF0": {
+      "first_seen_at": "2026-10-26T16:35:22.753856Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
+      "market_candidates": [
+        "uk"
+      ],
+      "sources": [
+        "search:uk:date:UK rap official audio",
+        "search:uk:relevance:UK rap official audio"
+      ],
+      "anchor": {
+        "measured_at": "2026-10-26T16:35:22.753856Z",
+        "views": 100
+      },
+      "last_interval": null
+    },
+    "orv71mcua_4": {
+      "first_seen_at": "2026-10-26T16:35:22.753856Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
+      "market_candidates": [
+        "us"
+      ],
+      "sources": [
+        "search:us:date:American hip hop official audio"
+      ],
+      "anchor": {
+        "measured_at": "2026-10-26T16:35:22.753856Z",
+        "views": 8
+      },
+      "last_interval": null
+    },
     "ou6mCvoKCjQ": {
       "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
         "fr"
       ],
@@ -3585,9 +2557,24 @@
       },
       "last_interval": null
     },
+    "p0kFq-2KXEs": {
+      "first_seen_at": "2026-10-26T16:35:22.753856Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
+      "market_candidates": [
+        "de"
+      ],
+      "sources": [
+        "search:de:relevance:Deutschrap official audio"
+      ],
+      "anchor": {
+        "measured_at": "2026-10-26T16:35:22.753856Z",
+        "views": 225
+      },
+      "last_interval": null
+    },
     "p170LLhazxc": {
       "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
         "fr"
       ],
@@ -3600,24 +2587,9 @@
       },
       "last_interval": null
     },
-    "pEQto3FKlgc": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
-      "market_candidates": [
-        "fr"
-      ],
-      "sources": [
-        "search:fr:date:rap français audio officiel"
-      ],
-      "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 1
-      },
-      "last_interval": null
-    },
     "pJpskET_GSg": {
       "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
         "uk"
       ],
@@ -3630,24 +2602,9 @@
       },
       "last_interval": null
     },
-    "pMpTUqJMnzM": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
-      "market_candidates": [
-        "uk"
-      ],
-      "sources": [
-        "music_chart:uk"
-      ],
-      "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 11268250
-      },
-      "last_interval": null
-    },
     "pPvzD1iaoKM": {
       "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
         "fr"
       ],
@@ -3660,29 +2617,30 @@
       },
       "last_interval": null
     },
-    "pQL1bWTuAB4": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+    "peF_6WA3-3s": {
+      "first_seen_at": "2026-10-26T16:35:22.753856Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
         "de"
       ],
       "sources": [
-        "music_chart:de"
+        "search:de:relevance:Deutschrap offizielles Musikvideo"
       ],
       "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 205465
+        "measured_at": "2026-10-26T16:35:22.753856Z",
+        "views": 5190
       },
       "last_interval": null
     },
     "peNwrSUyB98": {
       "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
         "fr"
       ],
       "sources": [
-        "music_chart:fr"
+        "search:fr:relevance:rap français audio officiel",
+        "search:fr:relevance:rap français clip officiel"
       ],
       "anchor": {
         "measured_at": "2026-10-26T16:17:47.517396Z",
@@ -3692,7 +2650,7 @@
     },
     "poHuRVbfTIY": {
       "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
         "de"
       ],
@@ -3707,7 +2665,7 @@
     },
     "q62ry7HtjGU": {
       "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
         "uk"
       ],
@@ -3722,7 +2680,7 @@
     },
     "qBt6sW_a03A": {
       "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
         "de"
       ],
@@ -3737,13 +2695,12 @@
     },
     "qNi9vyiYdxk": {
       "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
         "fr"
       ],
       "sources": [
-        "search:fr:viewCount:rap français audio officiel",
-        "search:fr:viewCount:rap français clip officiel"
+        "search:fr:relevance:rap français audio officiel"
       ],
       "anchor": {
         "measured_at": "2026-10-26T16:17:47.517396Z",
@@ -3753,7 +2710,7 @@
     },
     "qTQ3QhRwfq4": {
       "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
         "fr"
       ],
@@ -3766,9 +2723,24 @@
       },
       "last_interval": null
     },
+    "qjJd4vVxGeo": {
+      "first_seen_at": "2026-10-26T16:35:22.753856Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
+      "market_candidates": [
+        "uk"
+      ],
+      "sources": [
+        "search:uk:date:UK rap official music video"
+      ],
+      "anchor": {
+        "measured_at": "2026-10-26T16:35:22.753856Z",
+        "views": 1
+      },
+      "last_interval": null
+    },
     "qvbrPlwjB1E": {
       "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
         "uk"
       ],
@@ -3781,69 +2753,9 @@
       },
       "last_interval": null
     },
-    "rjQfij9tsEc": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
-      "market_candidates": [
-        "uk"
-      ],
-      "sources": [
-        "search:uk:date:UK rap official music video"
-      ],
-      "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 9
-      },
-      "last_interval": null
-    },
-    "rvMwVzaxjYU": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
-      "market_candidates": [
-        "uk"
-      ],
-      "sources": [
-        "music_chart:uk"
-      ],
-      "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 6693808
-      },
-      "last_interval": null
-    },
-    "s3PNFciNOAM": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
-      "market_candidates": [
-        "fr"
-      ],
-      "sources": [
-        "search:fr:viewCount:rap français audio officiel"
-      ],
-      "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 873123
-      },
-      "last_interval": null
-    },
-    "sKO5mYBFzxM": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
-      "market_candidates": [
-        "de"
-      ],
-      "sources": [
-        "music_chart:de"
-      ],
-      "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 147803
-      },
-      "last_interval": null
-    },
     "sVu6v7CQ0qg": {
       "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
         "uk"
       ],
@@ -3858,7 +2770,7 @@
     },
     "sWoR7Q-rxLI": {
       "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
         "uk"
       ],
@@ -3871,59 +2783,29 @@
       },
       "last_interval": null
     },
-    "scQYSXvEYGs": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+    "so8Ql8b_Gm4": {
+      "first_seen_at": "2026-10-26T16:35:22.753856Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
-        "de"
+        "uk"
       ],
       "sources": [
-        "search:de:viewCount:Deutschrap official audio"
+        "search:uk:relevance:UK rap official music video"
       ],
       "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 35836
-      },
-      "last_interval": null
-    },
-    "sxTLKTQQ-n4": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
-      "market_candidates": [
-        "de"
-      ],
-      "sources": [
-        "search:de:viewCount:Deutschrap offizielles Musikvideo"
-      ],
-      "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 18699
-      },
-      "last_interval": null
-    },
-    "tAg4Fa1JtPo": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
-      "market_candidates": [
-        "us"
-      ],
-      "sources": [
-        "music_chart:us"
-      ],
-      "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 857993
+        "measured_at": "2026-10-26T16:35:22.753856Z",
+        "views": 84784
       },
       "last_interval": null
     },
     "tCmI2jxb0yE": {
       "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
         "de"
       ],
       "sources": [
-        "search:de:viewCount:Deutschrap offizielles Musikvideo"
+        "search:de:relevance:Deutschrap offizielles Musikvideo"
       ],
       "anchor": {
         "measured_at": "2026-10-26T16:17:47.517396Z",
@@ -3931,24 +2813,9 @@
       },
       "last_interval": null
     },
-    "tKY6ZvY5IhQ": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
-      "market_candidates": [
-        "de"
-      ],
-      "sources": [
-        "search:de:viewCount:Deutschrap offizielles Musikvideo"
-      ],
-      "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 15666
-      },
-      "last_interval": null
-    },
     "tuAjHwCtxlY": {
       "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
         "uk"
       ],
@@ -3956,29 +2823,29 @@
         "search:uk:date:UK rap official music video"
       ],
       "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 7
+        "measured_at": "2026-10-26T16:35:22.753856Z",
+        "views": 6
       },
       "last_interval": null
     },
-    "uSbv38aLHz0": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+    "uFp0r2jK-34": {
+      "first_seen_at": "2026-10-26T16:35:22.753856Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
         "uk"
       ],
       "sources": [
-        "search:uk:viewCount:UK rap official music video"
+        "search:uk:relevance:UK rap official audio"
       ],
       "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 475953
+        "measured_at": "2026-10-26T16:35:22.753856Z",
+        "views": 37708
       },
       "last_interval": null
     },
     "uVMkT48mPFA": {
       "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
         "de"
       ],
@@ -3993,7 +2860,7 @@
     },
     "uhQsJvWyYsE": {
       "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
         "de"
       ],
@@ -4006,14 +2873,29 @@
       },
       "last_interval": null
     },
-    "vBk30V8AukM": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+    "usmDSqvGkn0": {
+      "first_seen_at": "2026-10-26T16:35:22.753856Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
         "us"
       ],
       "sources": [
-        "search:us:viewCount:rap official music video"
+        "search:us:date:American hip hop official audio"
+      ],
+      "anchor": {
+        "measured_at": "2026-10-26T16:35:22.753856Z",
+        "views": 116
+      },
+      "last_interval": null
+    },
+    "vBk30V8AukM": {
+      "first_seen_at": "2026-10-26T16:17:47.517396Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
+      "market_candidates": [
+        "us"
+      ],
+      "sources": [
+        "search:us:relevance:US rap official music video"
       ],
       "anchor": {
         "measured_at": "2026-10-26T16:17:47.517396Z",
@@ -4021,55 +2903,24 @@
       },
       "last_interval": null
     },
-    "vNajECpEHzM": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
-      "market_candidates": [
-        "de"
-      ],
-      "sources": [
-        "music_chart:de"
-      ],
-      "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 104626
-      },
-      "last_interval": null
-    },
-    "vOdlW0Jv5Q4": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+    "voxV_HEAU_c": {
+      "first_seen_at": "2026-10-26T16:35:22.753856Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
         "fr"
       ],
       "sources": [
-        "search:fr:viewCount:rap français audio officiel",
-        "search:fr:viewCount:rap français clip officiel"
+        "search:fr:relevance:rap français clip officiel"
       ],
       "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 4520317
-      },
-      "last_interval": null
-    },
-    "vesOkxq7OjY": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
-      "market_candidates": [
-        "us"
-      ],
-      "sources": [
-        "search:us:date:rap official music video"
-      ],
-      "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 2
+        "measured_at": "2026-10-26T16:35:22.753856Z",
+        "views": 35049
       },
       "last_interval": null
     },
     "vsMLJrXFl1I": {
       "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
         "de"
       ],
@@ -4084,7 +2935,7 @@
     },
     "vxRl9isRZ4Q": {
       "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
         "fr"
       ],
@@ -4099,13 +2950,13 @@
     },
     "vxffNJmhIRo": {
       "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
         "fr"
       ],
       "sources": [
-        "search:fr:viewCount:rap français audio officiel",
-        "search:fr:viewCount:rap français clip officiel"
+        "search:fr:relevance:rap français audio officiel",
+        "search:fr:relevance:rap français clip officiel"
       ],
       "anchor": {
         "measured_at": "2026-10-26T16:17:47.517396Z",
@@ -4113,14 +2964,29 @@
       },
       "last_interval": null
     },
-    "w4DxHDzMf34": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+    "vyF8_oRfcuE": {
+      "first_seen_at": "2026-10-26T16:35:22.753856Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
         "uk"
       ],
       "sources": [
-        "search:uk:viewCount:UK rap official audio"
+        "search:uk:relevance:UK rap official music video"
+      ],
+      "anchor": {
+        "measured_at": "2026-10-26T16:35:22.753856Z",
+        "views": 18333
+      },
+      "last_interval": null
+    },
+    "w4DxHDzMf34": {
+      "first_seen_at": "2026-10-26T16:17:47.517396Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
+      "market_candidates": [
+        "uk"
+      ],
+      "sources": [
+        "search:uk:relevance:UK rap official audio"
       ],
       "anchor": {
         "measured_at": "2026-10-26T16:17:47.517396Z",
@@ -4128,9 +2994,24 @@
       },
       "last_interval": null
     },
+    "w90yVKjCVcY": {
+      "first_seen_at": "2026-10-26T16:35:22.753856Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
+      "market_candidates": [
+        "uk"
+      ],
+      "sources": [
+        "search:uk:relevance:UK rap official audio"
+      ],
+      "anchor": {
+        "measured_at": "2026-10-26T16:35:22.753856Z",
+        "views": 6
+      },
+      "last_interval": null
+    },
     "wRhXnEnjyRA": {
       "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
         "de"
       ],
@@ -4138,34 +3019,20 @@
         "search:de:date:Deutschrap official audio"
       ],
       "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 810
-      },
-      "last_interval": null
-    },
-    "wS21bFWCosI": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
-      "market_candidates": [
-        "uk"
-      ],
-      "sources": [
-        "search:uk:viewCount:UK rap official music video"
-      ],
-      "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 286816
+        "measured_at": "2026-10-26T16:35:22.753856Z",
+        "views": 746
       },
       "last_interval": null
     },
     "wfX08yaXfSg": {
       "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
         "fr"
       ],
       "sources": [
-        "search:fr:viewCount:rap français audio officiel"
+        "search:fr:relevance:rap français audio officiel",
+        "search:fr:relevance:rap français clip officiel"
       ],
       "anchor": {
         "measured_at": "2026-10-26T16:17:47.517396Z",
@@ -4175,7 +3042,7 @@
     },
     "wsKcySHP7gA": {
       "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
         "uk"
       ],
@@ -4183,36 +3050,35 @@
         "search:uk:date:UK rap official audio"
       ],
       "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 68
+        "measured_at": "2026-10-26T16:35:22.753856Z",
+        "views": 52
       },
       "last_interval": null
     },
-    "xCus6Afb9-o": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+    "xBVSsEUDCME": {
+      "first_seen_at": "2026-10-26T16:35:22.753856Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
         "de"
       ],
       "sources": [
-        "search:de:viewCount:Deutschrap offizielles Musikvideo"
+        "search:de:relevance:Deutschrap official audio"
       ],
       "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 132075
+        "measured_at": "2026-10-26T16:35:22.753856Z",
+        "views": 630
       },
       "last_interval": null
     },
     "xELnTNmFtLQ": {
       "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
         "fr"
       ],
       "sources": [
-        "music_chart:fr",
-        "search:fr:viewCount:rap français audio officiel",
-        "search:fr:viewCount:rap français clip officiel"
+        "search:fr:relevance:rap français audio officiel",
+        "search:fr:relevance:rap français clip officiel"
       ],
       "anchor": {
         "measured_at": "2026-10-26T16:17:47.517396Z",
@@ -4220,15 +3086,29 @@
       },
       "last_interval": null
     },
-    "yBxODxGE51M": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+    "y6hn6rND_60": {
+      "first_seen_at": "2026-10-26T16:35:22.753856Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
         "de"
       ],
       "sources": [
-        "search:de:date:Deutschrap offizielles Musikvideo",
-        "search:de:viewCount:Deutschrap offizielles Musikvideo"
+        "search:de:relevance:Deutschrap offizielles Musikvideo"
+      ],
+      "anchor": {
+        "measured_at": "2026-10-26T16:35:22.753856Z",
+        "views": 68026
+      },
+      "last_interval": null
+    },
+    "yBxODxGE51M": {
+      "first_seen_at": "2026-10-26T16:17:47.517396Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
+      "market_candidates": [
+        "de"
+      ],
+      "sources": [
+        "search:de:date:Deutschrap offizielles Musikvideo"
       ],
       "anchor": {
         "measured_at": "2026-10-26T16:17:47.517396Z",
@@ -4236,29 +3116,15 @@
       },
       "last_interval": null
     },
-    "yTxUiB2LhnA": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
-      "market_candidates": [
-        "uk"
-      ],
-      "sources": [
-        "music_chart:uk"
-      ],
-      "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 631057
-      },
-      "last_interval": null
-    },
     "yYuXFriRFz0": {
       "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
         "fr"
       ],
       "sources": [
-        "music_chart:fr"
+        "search:fr:relevance:rap français audio officiel",
+        "search:fr:relevance:rap français clip officiel"
       ],
       "anchor": {
         "measured_at": "2026-10-26T16:17:47.517396Z",
@@ -4266,16 +3132,30 @@
       },
       "last_interval": null
     },
+    "ypKSotdZUF8": {
+      "first_seen_at": "2026-10-26T16:35:22.753856Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
+      "market_candidates": [
+        "de"
+      ],
+      "sources": [
+        "search:de:relevance:Deutschrap offizielles Musikvideo"
+      ],
+      "anchor": {
+        "measured_at": "2026-10-26T16:35:22.753856Z",
+        "views": 869812
+      },
+      "last_interval": null
+    },
     "yryoa6NZ_d0": {
       "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
         "fr"
       ],
       "sources": [
-        "music_chart:fr",
-        "search:fr:viewCount:rap français audio officiel",
-        "search:fr:viewCount:rap français clip officiel"
+        "search:fr:relevance:rap français audio officiel",
+        "search:fr:relevance:rap français clip officiel"
       ],
       "anchor": {
         "measured_at": "2026-10-26T16:17:47.517396Z",
@@ -4283,24 +3163,24 @@
       },
       "last_interval": null
     },
-    "z-GkOquSqLw": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+    "z0LtMABAoS0": {
+      "first_seen_at": "2026-10-26T16:35:22.753856Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
         "us"
       ],
       "sources": [
-        "search:us:viewCount:rap official music video"
+        "search:us:relevance:US rap official music video"
       ],
       "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 8742702
+        "measured_at": "2026-10-26T16:35:22.753856Z",
+        "views": 49386
       },
       "last_interval": null
     },
     "zCda0xsjWoc": {
       "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
         "uk"
       ],
@@ -4313,39 +3193,9 @@
       },
       "last_interval": null
     },
-    "zEawlebryII": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
-      "market_candidates": [
-        "de"
-      ],
-      "sources": [
-        "music_chart:de"
-      ],
-      "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 4496711
-      },
-      "last_interval": null
-    },
-    "zFLO82v3mjA": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
-      "market_candidates": [
-        "uk"
-      ],
-      "sources": [
-        "music_chart:uk"
-      ],
-      "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 926661
-      },
-      "last_interval": null
-    },
     "zFvS0K2MSPk": {
       "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
         "fr"
       ],
@@ -4358,63 +3208,19 @@
       },
       "last_interval": null
     },
-    "zIgQAD3La9I": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
+    "zWE__oCZBik": {
+      "first_seen_at": "2026-10-26T16:35:22.753856Z",
+      "last_seen_at": "2026-10-26T16:35:22.753856Z",
       "market_candidates": [
-        "de"
+        "fr"
       ],
       "sources": [
-        "search:de:viewCount:Deutschrap offizielles Musikvideo"
+        "search:fr:relevance:rap français audio officiel",
+        "search:fr:relevance:rap français clip officiel"
       ],
       "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 58582
-      },
-      "last_interval": null
-    },
-    "zQezjKZcq7g": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
-      "market_candidates": [
-        "de"
-      ],
-      "sources": [
-        "music_chart:de"
-      ],
-      "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 143574
-      },
-      "last_interval": null
-    },
-    "zqmtsCn3xg8": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
-      "market_candidates": [
-        "us"
-      ],
-      "sources": [
-        "search:us:date:hip hop official audio"
-      ],
-      "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 5
-      },
-      "last_interval": null
-    },
-    "zt2Nzy4INUA": {
-      "first_seen_at": "2026-10-26T16:17:47.517396Z",
-      "last_seen_at": "2026-10-26T16:17:47.517396Z",
-      "market_candidates": [
-        "us"
-      ],
-      "sources": [
-        "search:us:date:rap official music video"
-      ],
-      "anchor": {
-        "measured_at": "2026-10-26T16:17:47.517396Z",
-        "views": 20
+        "measured_at": "2026-10-26T16:35:22.753856Z",
+        "views": 876510
       },
       "last_interval": null
     }
