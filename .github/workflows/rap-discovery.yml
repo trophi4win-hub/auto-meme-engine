@@ -1,0 +1,121 @@
+name: Rap Radar Discovery
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: rap-radar-discovery
+  cancel-in-progress: false
+
+jobs:
+  discover:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+
+    steps:
+      - name: Repository laden
+        uses: actions/checkout@v6
+        with:
+          ref: main
+          persist-credentials: true
+
+      - name: Python einrichten
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Konfiguration und Skript pruefen
+        run: |
+          python -m json.tool config/rap_sources.json > /dev/null
+          python -m py_compile scripts/discover.py
+
+      - name: Rap-Kandidaten sammeln
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+        run: python scripts/discover.py
+
+      - name: Ergebnis zusammenfassen
+        run: |
+          python - <<'PY'
+          import json
+          import os
+          from pathlib import Path
+
+          report = json.loads(
+              Path("data/rap_candidates.json").read_text(
+                  encoding="utf-8"
+              )
+          )
+
+          lines = [
+              "# Rap Radar",
+              "",
+              f"Messzeitpunkt: {report['generated_at']}",
+              "",
+              f"Beobachtete Videos: {report['total_tracked_videos']}",
+              "",
+              "Noch keine automatische Veroeffentlichung.",
+              "",
+              "## Erste Kandidaten",
+              "",
+          ]
+
+          for index, item in enumerate(report["candidates"][:10], 1):
+              title = " ".join(item["title"].split())
+              channel = " ".join(item["channel"].split())
+              interval = item.get("current_interval")
+
+              if interval:
+                  metric = (
+                      f"{interval['views_per_hour']:,.0f} "
+                      "neue Views pro Stunde im Messintervall"
+                  )
+              else:
+                  metric = (
+                      f"{item['views']:,} Gesamtviews; "
+                      "noch kein neues Messintervall"
+                  )
+
+              lines.extend([
+                  f"{index}. {title} — {channel}",
+                  f"   - {metric}",
+                  f"   - Suchbereiche: "
+                  f"{', '.join(item['market_candidates'])}",
+                  f"   - {item['url']}",
+                  "",
+              ])
+
+          lines.extend([
+              "## Einordnung",
+              "",
+              "- Treffer sind noch nicht als Rap bestaetigt.",
+              "- Suchbereiche belegen keine Artist-Herkunft.",
+              "- Gesamtviews sind kein Nachweis fuer aktuelles Momentum.",
+              "- Genre und Nutzungsrechte sind noch zu pruefen.",
+          ])
+
+          with open(
+              os.environ["GITHUB_STEP_SUMMARY"],
+              "a",
+              encoding="utf-8",
+          ) as summary:
+              summary.write("\n".join(lines) + "\n")
+          PY
+
+      - name: Messstaende im Repository speichern
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email \
+            "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add -- data/rap_state.json data/rap_candidates.json
+
+          if git diff --cached --quiet; then
+            echo "Keine neuen Daten zu speichern."
+          else
+            git commit -m "Update rap radar measurements"
+            git push origin HEAD:main
+          fi
