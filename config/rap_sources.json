@@ -47,18 +47,17 @@
     }
   ],
   "discovery": {
-  "recent_search_days": 30,
-  "results_per_query": 15,
-  "search_orders": [
-    "relevance",
-    "date"
-  ],
-  "include_music_charts": false,
-  "chart_results_per_market": 25,
-  "track_previously_discovered_videos": false,
-  "minimum_hours_between_measurements": 6,
-  "max_candidates_in_report": 100
-},
+    "recent_search_days": 30,
+    "results_per_query": 15,
+    "search_orders": [
+      "relevance",
+      "date"
+    ],
+    "include_music_charts": false,
+    "chart_results_per_market": 25,
+    "track_previously_discovered_videos": false,
+    "minimum_hours_between_measurements": 6,
+    "max_candidates_in_report": 100
   },
   "selection": {
     "filter_by_mood": false,
