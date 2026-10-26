@@ -1,0 +1,106 @@
+name: Test YouTube Connection
+
+on:
+  workflow_dispatch:
+
+permissions: {}
+
+jobs:
+  test-youtube:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: YouTube-Verbindung pruefen
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+        shell: python
+        run: |
+          import json
+          import os
+          import sys
+          from urllib.error import HTTPError, URLError
+          from urllib.parse import urlencode
+          from urllib.request import Request, urlopen
+
+          key = os.environ.get("YOUTUBE_API_KEY", "").strip()
+
+          if not key:
+              sys.exit(
+                  "FEHLER: Das GitHub Secret YOUTUBE_API_KEY fehlt oder ist leer."
+              )
+
+          params = {
+              "part": "snippet",
+              "chart": "mostPopular",
+              "regionCode": "US",
+              "maxResults": 1,
+          }
+
+          url = (
+              "https://www.googleapis.com/youtube/v3/videos?"
+              + urlencode(params)
+          )
+
+          request = Request(
+              url,
+              headers={"X-Goog-Api-Key": key},
+          )
+
+          try:
+              with urlopen(request, timeout=30) as response:
+                  result = json.load(response)
+
+          except HTTPError as error:
+              try:
+                  details = json.loads(
+                      error.read().decode("utf-8")
+                  ).get("error", {})
+
+                  message = details.get(
+                      "message", "Keine weitere Beschreibung."
+                  )
+
+                  reasons = [
+                      item.get("reason", "")
+                      for item in details.get("errors", [])
+                  ]
+
+              except (ValueError, UnicodeDecodeError):
+                  message = "Die Fehlerantwort konnte nicht gelesen werden."
+                  reasons = []
+
+              print(f"FEHLER: YouTube antwortet mit HTTP {error.code}.")
+              print(str(message).replace(key, "[REDACTED]"))
+
+              if reasons:
+                  print("Grund:", ", ".join(reasons).replace(
+                      key, "[REDACTED]"
+                  ))
+
+              sys.exit(1)
+
+          except (URLError, TimeoutError):
+              sys.exit(
+                  "FEHLER: YouTube konnte nicht erreicht werden. "
+                  "Bitte den Workflow erneut versuchen."
+              )
+
+          print("ERFOLG: YouTube hat die API-Anfrage akzeptiert.")
+          print("Der API-Schluessel wurde nicht ausgegeben.")
+
+          items = result.get("items", [])
+
+          if items:
+              video = items[0]
+              print("Beispielvideo:", video["snippet"]["title"])
+              print("Kanal:", video["snippet"]["channelTitle"])
+              print(
+                  "Link: https://www.youtube.com/watch?v="
+                  + video["id"]
+              )
+          else:
+              print(
+                  "Keine Beispielvideos geliefert. "
+                  "Die API-Verbindung funktioniert trotzdem."
+              )
