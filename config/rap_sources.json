@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "markets": [
+    {
+      "id": "us",
+      "label": "US-Rap",
+      "region_code": "US",
+      "relevance_language": "en",
+      "search_queries": [
+        "rap official music video",
+        "hip hop official audio"
+      ],
+      "verified_channel_ids": []
+    },
+    {
+      "id": "uk",
+      "label": "UK-Rap",
+      "region_code": "GB",
+      "relevance_language": "en",
+      "search_queries": [
+        "UK rap official music video",
+        "UK rap official audio"
+      ],
+      "verified_channel_ids": []
+    },
+    {
+      "id": "de",
+      "label": "Deutschrap",
+      "region_code": "DE",
+      "relevance_language": "de",
+      "search_queries": [
+        "Deutschrap offizielles Musikvideo",
+        "Deutschrap official audio"
+      ],
+      "verified_channel_ids": []
+    },
+    {
+      "id": "fr",
+      "label": "Französischer Rap",
+      "region_code": "FR",
+      "relevance_language": "fr",
+      "search_queries": [
+        "rap français clip officiel",
+        "rap français audio officiel"
+      ],
+      "verified_channel_ids": []
+    }
+  ],
+  "discovery": {
+    "recent_search_days": 30,
+    "results_per_query": 15,
+    "search_orders": [
+      "date",
+      "viewCount"
+    ],
+    "include_music_charts": true,
+    "chart_results_per_market": 25,
+    "track_previously_discovered_videos": true,
+    "minimum_hours_between_measurements": 6,
+    "max_candidates_in_report": 40
+  },
+  "selection": {
+    "filter_by_mood": false,
+    "filter_by_melody": false,
+    "fixed_market_quotas": false,
+    "require_manual_genre_review": true
+  },
+  "publishing": {
+    "enabled": false
+  }
+}
