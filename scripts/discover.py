@@ -1,407 +1,437 @@
 #!/usr/bin/env python3
-"""
-discover.py
-Finds high-potential Reddit memes and saves a publish queue.
-
-Reads:
-    data/posted.json
-
-Writes:
-    data/discovery_queue.json
-"""
+"""Collect YouTube rap candidates. Never publishes content."""
 
 import json
 import os
-import re
-import time
-from datetime import datetime, timezone
+import sys
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
-from urllib.parse import quote_plus
+from urllib.error import HTTPError, URLError
+from urllib.parse import urlencode
 from urllib.request import Request, urlopen
 
-BASE_DIR = Path(__file__).resolve().parent.parent
-DATA_DIR = BASE_DIR / "data"
-POSTED_FILE = DATA_DIR / "posted.json"
-QUEUE_FILE = DATA_DIR / "discovery_queue.json"
-
-SUBREDDITS = [
-    "memes",
-    "dankmemes",
-    "me_irl",
-    "wholesomememes",
-    "ProgrammerHumor",
-    "AdviceAnimals",
-]
-
-SUBREDDIT_WEIGHTS = {
-    "memes": 1.15,
-    "dankmemes": 1.10,
-    "me_irl": 1.20,
-    "wholesomememes": 1.05,
-    "programmerhumor": 0.95,
-    "adviceanimals": 1.00,
-}
-
-TITLE_PATTERNS = [
-    r"\bme\s+irl\b",
-    r"\bwhen\b",
-    r"\bnobody\b",
-    r"\beveryone\b",
-    r"\bpov\b",
-    r"\bthe\s+way\b",
-    r"\bnot\s+me\b",
-    r"\bliterally\b",
-]
-
-BLOCKED_PATTERNS = [
-    r"\bnsfw\b",
-    r"\bnude\b",
-    r"\bsex\b",
-    r"\bporn\b",
-    r"\bgore\b",
-    r"\bdead\b",
-    r"\bsuicide\b",
-    r"\bpolitic",
-    r"\btrump\b",
-    r"\bbiden\b",
-    r"\bwar\b",
-    r"\bracist\b",
-]
-
-MIN_VIRAL_SCORE = 55
-MAX_AGE_HOURS = 24
-MAX_PER_SUBREDDIT = 3
+ROOT = Path(__file__).resolve().parent.parent
+CONFIG_PATH = ROOT / "config" / "rap_sources.json"
+STATE_PATH = ROOT / "data" / "rap_state.json"
+REPORT_PATH = ROOT / "data" / "rap_candidates.json"
+API_BASE = "https://www.googleapis.com/youtube/v3/"
 
 
-def get_json(url):
-    request = Request(
-        url,
-        headers={
-            "User-Agent": os.getenv(
-                "REDDIT_USER_AGENT",
-                "auto-meme-engine/1.0",
-            )
-        },
-    )
-
-    with urlopen(request, timeout=20) as response:
-        return json.loads(response.read().decode("utf-8"))
-
-
-def load_json(path, default):
+def read_json(path, default=None):
     if not path.exists():
         return default
 
-    try:
-        with open(path, "r", encoding="utf-8") as file:
-            return json.load(file)
-    except Exception:
-        return default
+    with path.open(encoding="utf-8") as handle:
+        return json.load(handle)
 
 
-def save_json(path, data):
+def write_json(path, value):
     path.parent.mkdir(parents=True, exist_ok=True)
-
-    with open(path, "w", encoding="utf-8") as file:
-        json.dump(data, file, indent=2, ensure_ascii=False)
-
-
-def get_posted_ids():
-    posted = load_json(POSTED_FILE, {"posted": []})
-
-    if isinstance(posted, dict):
-        return {
-            item.get("id")
-            for item in posted.get("posted", [])
-            if isinstance(item, dict) and item.get("id")
-        }
-
-    return set()
+    temporary = path.with_suffix(path.suffix + ".tmp")
+    temporary.write_text(
+        json.dumps(value, ensure_ascii=False, indent=2),
+        encoding="utf-8",
+    )
+    temporary.replace(path)
 
 
-def fetch_subreddit_posts(subreddit, limit=40):
-    posts = {}
+def iso_time(value):
+    return value.isoformat().replace("+00:00", "Z")
 
-    for listing in ["hot", "rising"]:
-        url = (
-            f"https://www.reddit.com/r/{quote_plus(subreddit)}/"
-            f"{listing}.json?limit={limit}&raw_json=1"
-        )
+
+def parse_time(value):
+    return datetime.fromisoformat(value.replace("Z", "+00:00"))
+
+
+def api_get(endpoint, params, key):
+    url = API_BASE + endpoint + "?" + urlencode(params)
+    request = Request(url, headers={"X-Goog-Api-Key": key})
+
+    try:
+        with urlopen(request, timeout=30) as response:
+            return json.load(response)
+
+    except HTTPError as error:
+        message = "Unbekannter API-Fehler"
 
         try:
-            data = get_json(url)
+            payload = json.loads(error.read().decode("utf-8"))
+            details = payload.get("error", {})
+            message = details.get("message", message)
+        except (ValueError, UnicodeDecodeError):
+            pass
 
-            for child in data.get("data", {}).get("children", []):
-                post = child.get("data", {})
+        message = str(message).replace(key, "[REDACTED]")
+        raise RuntimeError(
+            f"YouTube {endpoint}: HTTP {error.code}: {message}"
+        ) from None
 
-                if post.get("id"):
-                    posts[post["id"]] = post
-
-        except Exception as error:
-            print(f"Warning: could not load r/{subreddit}/{listing}: {error}")
-
-    return list(posts.values())
-
-
-def is_image_url(url):
-    path = url.lower().split("?")[0]
-    return path.endswith((".jpg", ".jpeg", ".png", ".webp"))
+    except (URLError, TimeoutError):
+        raise RuntimeError(
+            f"YouTube {endpoint} ist momentan nicht erreichbar."
+        ) from None
 
 
-def extract_image(post):
-    if post.get("is_gallery"):
-        media_metadata = post.get("media_metadata", {})
+def add_source(sources, video_id, market, source):
+    if not video_id:
+        return
 
-        for item in media_metadata.values():
-            if item.get("status") == "valid":
-                image = item.get("s", {}).get("u")
-
-                if image:
-                    return image.replace("&amp;", "&")
-
-        return None
-
-    url = post.get("url", "")
-
-    if post.get("post_hint") == "image" or is_image_url(url):
-        return url
-
-    previews = post.get("preview", {}).get("images", [])
-
-    if previews:
-        resolutions = previews[0].get("resolutions", [])
-
-        if resolutions:
-            return resolutions[-1].get("url", "").replace("&amp;", "&")
-
-    return None
+    entry = sources.setdefault(
+        video_id,
+        {"market_candidates": set(), "sources": set()},
+    )
+    entry["market_candidates"].add(market)
+    entry["sources"].add(source)
 
 
-def get_age_hours(post):
-    created_utc = float(post.get("created_utc", time.time()))
-    return max((time.time() - created_utc) / 3600, 0.01)
+def collect_sources(config, state, key, now):
+    settings = config["discovery"]
+    sources = {}
 
+    if settings.get("track_previously_discovered_videos", True):
+        for video_id, item in state["videos"].items():
+            sources[video_id] = {
+                "market_candidates": set(
+                    item.get("market_candidates", [])
+                ),
+                "sources": set(item.get("sources", [])),
+            }
 
-def calculate_viral_score(post):
-    ups = max(int(post.get("ups", 0)), 0)
-    comments = max(int(post.get("num_comments", 0)), 0)
-    age_hours = get_age_hours(post)
-    ups_per_hour = ups / age_hours
-    comment_ratio = comments / max(ups, 1)
-
-    score = 0.0
-    reasons = []
-
-    if ups_per_hour >= 1000:
-        score += 45
-        reasons.append("extreme upvote velocity")
-    elif ups_per_hour >= 500:
-        score += 35
-        reasons.append("very fast upvote velocity")
-    elif ups_per_hour >= 200:
-        score += 25
-        reasons.append("fast upvote velocity")
-    elif ups_per_hour >= 80:
-        score += 15
-        reasons.append("moderate upvote velocity")
-    elif ups_per_hour >= 25:
-        score += 7
-        reasons.append("early traction")
-
-    if ups >= 20000:
-        score += 20
-        reasons.append("very high karma")
-    elif ups >= 8000:
-        score += 14
-        reasons.append("high karma")
-    elif ups >= 2500:
-        score += 8
-        reasons.append("solid karma")
-
-    if comments >= 500:
-        score += 12
-        reasons.append("high comment volume")
-    elif comments >= 150:
-        score += 7
-        reasons.append("good comment volume")
-
-    if 0.05 <= comment_ratio <= 0.35:
-        score += 5
-        reasons.append("healthy comment ratio")
-
-    if age_hours <= 3:
-        score += 15
-        reasons.append("very fresh")
-    elif age_hours <= 8:
-        score += 10
-        reasons.append("fresh")
-    elif age_hours <= 18:
-        score += 5
-        reasons.append("recent")
-    elif age_hours > 36:
-        score -= 10
-        reasons.append("possibly past peak")
-
-    subreddit = post.get("subreddit", "").lower()
-    weight = SUBREDDIT_WEIGHTS.get(subreddit, 1.0)
-
-    if weight != 1.0:
-        score *= weight
-        reasons.append(f"subreddit weight {weight:.2f}")
-
-    title = post.get("title", "").lower()
-
-    for pattern in TITLE_PATTERNS:
-        if re.search(pattern, title):
-            score += 2
-            reasons.append(f"relatable title pattern: {pattern}")
-
-    for pattern in BLOCKED_PATTERNS:
-        if re.search(pattern, title):
-            score -= 35
-            reasons.append(f"blocked keyword: {pattern}")
-            break
-
-    return round(max(score, 0.0), 2), reasons
-
-
-def make_caption(title, subreddit):
-    clean_title = re.sub(r"\s+", " ", title).strip()
-    clean_title = re.sub(r"[#@\u2028\u2029]", "", clean_title)
-
-    if len(clean_title) > 180:
-        clean_title = clean_title[:177].rstrip() + "..."
-
-    hashtag = subreddit.lower().replace("_", "")
-
-    return (
-        f"{clean_title}\n\n"
-        "Which one are you? 👀\n\n"
-        f"#meme #memes #funny #dailymemes #relatable #{hashtag}"
+    cutoff = now - timedelta(
+        days=settings.get("recent_search_days", 30)
     )
 
+    for market in config["markets"]:
+        market_id = market["id"]
+        print(f"Suche: {market['label']}", flush=True)
 
-def build_candidate(post, image_url, viral_score, reasons):
-    post_id = post["id"]
-    subreddit = post.get("subreddit", "memes")
-    title = post.get("title", "").strip()
-    age_hours = get_age_hours(post)
-    ups = int(post.get("ups", 0))
+        common = {
+            "part": "snippet",
+            "type": "video",
+            "regionCode": market["region_code"],
+            "relevanceLanguage": market["relevance_language"],
+            "publishedAfter": iso_time(cutoff),
+            "maxResults": settings.get("results_per_query", 15),
+        }
 
-    return {
-        "id": post_id,
-        "subreddit": subreddit,
-        "title": title,
-        "permalink": "https://www.reddit.com" + post.get("permalink", ""),
-        "image_url": image_url,
-        "ups": ups,
-        "comments": int(post.get("num_comments", 0)),
-        "created_utc": float(post.get("created_utc", 0)),
-        "age_hours": round(age_hours, 2),
-        "ups_per_hour": round(ups / age_hours, 2),
-        "viral_score": viral_score,
-        "reasons": reasons,
-        "discovered_at": datetime.now(timezone.utc).isoformat(),
-        "ig_caption": make_caption(title, subreddit),
-        "ig_hashtags": "#memes #funnymemes #relatablememes #dankmemes #instamemes",
-        "status": "queued",
-    }
+        for query in market["search_queries"]:
+            for order in settings.get(
+                "search_orders", ["date", "viewCount"]
+            ):
+                result = api_get(
+                    "search",
+                    dict(common, q=query, order=order),
+                    key,
+                )
 
+                for item in result.get("items", []):
+                    add_source(
+                        sources,
+                        item.get("id", {}).get("videoId"),
+                        market_id,
+                        f"search:{market_id}:{order}:{query}",
+                    )
 
-def discover_memes():
-    posted_ids = get_posted_ids()
-    queue = load_json(QUEUE_FILE, [])
-    queued_ids = {item.get("id") for item in queue if isinstance(item, dict)}
+        # Only use channel IDs explicitly supplied in the config.
+        for channel_id in market.get("verified_channel_ids", []):
+            result = api_get(
+                "search",
+                dict(common, channelId=channel_id, order="date"),
+                key,
+            )
 
-    candidates = []
-    per_subreddit_count = {}
+            for item in result.get("items", []):
+                add_source(
+                    sources,
+                    item.get("id", {}).get("videoId"),
+                    market_id,
+                    f"channel:{channel_id}",
+                )
 
-    for subreddit in SUBREDDITS:
-        posts = fetch_subreddit_posts(subreddit)
-        valid_posts = []
-
-        for post in posts:
-            if post.get("over_18") or post.get("spoiler"):
-                continue
-
-            image_url = extract_image(post)
-
-            if not image_url:
-                continue
-
-            age_hours = get_age_hours(post)
-
-            if age_hours > MAX_AGE_HOURS:
-                continue
-
-            viral_score, reasons = calculate_viral_score(post)
-
-            if viral_score < MIN_VIRAL_SCORE:
-                continue
-
-            valid_posts.append(
+        if settings.get("include_music_charts", True):
+            result = api_get(
+                "videos",
                 {
-                    "post": post,
-                    "image_url": image_url,
-                    "viral_score": viral_score,
-                    "reasons": reasons,
+                    "part": "snippet",
+                    "chart": "mostPopular",
+                    "regionCode": market["region_code"],
+                    "videoCategoryId": "10",
+                    "maxResults": settings.get(
+                        "chart_results_per_market", 25
+                    ),
+                },
+                key,
+            )
+
+            for item in result.get("items", []):
+                add_source(
+                    sources,
+                    item.get("id"),
+                    market_id,
+                    f"music_chart:{market_id}",
+                )
+
+    return sources
+
+
+def collect_details(video_ids, key):
+    result = []
+
+    for start in range(0, len(video_ids), 50):
+        batch = video_ids[start:start + 50]
+
+        payload = api_get(
+            "videos",
+            {
+                "part": "snippet,statistics,contentDetails",
+                "id": ",".join(batch),
+            },
+            key,
+        )
+
+        result.extend(payload.get("items", []))
+
+    return result
+
+
+def build_results(config, state, sources, details, now):
+    settings = config["discovery"]
+    minimum_hours = float(
+        settings.get("minimum_hours_between_measurements", 6)
+    )
+
+    if minimum_hours <= 0:
+        raise ValueError(
+            "minimum_hours_between_measurements muss positiv sein."
+        )
+
+    updated_videos = {}
+    candidates = []
+
+    for video in details:
+        video_id = video["id"]
+        snippet = video["snippet"]
+
+        # Do not treat active/upcoming livestreams as normal song videos.
+        if snippet.get("liveBroadcastContent") in ("live", "upcoming"):
+            continue
+
+        statistics = video.get("statistics", {})
+
+        if "viewCount" not in statistics:
+            continue
+
+        views = int(statistics["viewCount"])
+        published = parse_time(snippet["publishedAt"])
+        age_hours = max(
+            (now - published).total_seconds() / 3600, 1
+        )
+
+        previous = state["videos"].get(video_id, {})
+        anchor = previous.get("anchor")
+        last_interval = previous.get("last_interval")
+
+        measurement_status = "baseline"
+        interval = None
+
+        if anchor:
+            elapsed = (
+                now - parse_time(anchor["measured_at"])
+            ).total_seconds() / 3600
+
+            if elapsed < 0:
+                raise ValueError(
+                    "Ein gespeicherter Messzeitpunkt liegt in der Zukunft."
+                )
+
+            if views < int(anchor["views"]):
+                anchor = {
+                    "measured_at": iso_time(now),
+                    "views": views,
                 }
-            )
+                last_interval = None
+                measurement_status = "counter_reset"
 
-        valid_posts.sort(key=lambda item: item["viral_score"], reverse=True)
+            elif elapsed >= minimum_hours:
+                delta = views - int(anchor["views"])
+                rate = delta / elapsed
+                previous_rate = (
+                    last_interval.get("views_per_hour")
+                    if last_interval else None
+                )
 
-        for item in valid_posts:
-            post = item["post"]
-            post_id = post["id"]
+                acceleration = None
+                if previous_rate is not None and previous_rate > 0:
+                    acceleration = round(rate / previous_rate, 3)
 
-            if post_id in posted_ids or post_id in queued_ids:
-                continue
+                interval = {
+                    "from": anchor["measured_at"],
+                    "to": iso_time(now),
+                    "hours": round(elapsed, 3),
+                    "views_gained": delta,
+                    "views_per_hour": round(rate, 3),
+                    "rate_ratio_vs_previous_interval": acceleration,
+                }
 
-            if per_subreddit_count.get(subreddit, 0) >= MAX_PER_SUBREDDIT:
-                break
+                last_interval = interval
+                anchor = {
+                    "measured_at": iso_time(now),
+                    "views": views,
+                }
+                measurement_status = "measured"
 
-            candidate = build_candidate(
-                post=post,
-                image_url=item["image_url"],
-                viral_score=item["viral_score"],
-                reasons=item["reasons"],
-            )
+            else:
+                measurement_status = "waiting_for_interval"
 
-            candidates.append(candidate)
-            per_subreddit_count[subreddit] = per_subreddit_count.get(subreddit, 0) + 1
+        else:
+            anchor = {
+                "measured_at": iso_time(now),
+                "views": views,
+            }
 
-    candidates.sort(key=lambda item: item["viral_score"], reverse=True)
-    return candidates
+        source = sources[video_id]
+        markets = sorted(source["market_candidates"])
+        evidence = sorted(source["sources"])
+
+        updated_videos[video_id] = {
+            "first_seen_at": previous.get(
+                "first_seen_at", iso_time(now)
+            ),
+            "last_seen_at": iso_time(now),
+            "market_candidates": markets,
+            "sources": evidence,
+            "anchor": anchor,
+            "last_interval": last_interval,
+        }
+
+        candidates.append({
+            "video_id": video_id,
+            "title": snippet["title"],
+            "channel": snippet["channelTitle"],
+            "channel_id": snippet["channelId"],
+            "url": f"https://www.youtube.com/watch?v={video_id}",
+            "published_at": snippet["publishedAt"],
+            "duration": video.get(
+                "contentDetails", {}
+            ).get("duration"),
+            "views": views,
+            "likes": (
+                int(statistics["likeCount"])
+                if "likeCount" in statistics else None
+            ),
+            "comments": (
+                int(statistics["commentCount"])
+                if "commentCount" in statistics else None
+            ),
+            "lifetime_average_views_per_hour": round(
+                views / age_hours, 3
+            ),
+            "measurement_status": measurement_status,
+            "current_interval": interval,
+            "last_completed_interval": last_interval,
+            "market_candidates": markets,
+            "sources": evidence,
+            "genre_status": "needs_review",
+            "rights_status": "not_checked",
+            "publish_status": "blocked",
+        })
+
+    # Measured momentum first; otherwise use a clearly labelled proxy.
+    def ranking(item):
+        interval = item["current_interval"]
+        if interval is not None:
+            return (1, interval["views_per_hour"])
+
+        return (0, item["lifetime_average_views_per_hour"])
+
+    candidates.sort(key=ranking, reverse=True)
+
+    return updated_videos, candidates
 
 
 def main():
-    print("Starting Reddit meme discovery...")
+    key = os.environ.get("YOUTUBE_API_KEY", "").strip()
+    if not key:
+        raise ValueError("YOUTUBE_API_KEY fehlt.")
 
-    candidates = discover_memes()
+    config = read_json(CONFIG_PATH)
+    if not config or not config.get("markets"):
+        raise ValueError("Rap-Konfiguration fehlt oder ist unvollstaendig.")
+
+    state = read_json(
+        STATE_PATH, {"schema_version": 1, "videos": {}}
+    )
+    if not isinstance(state.get("videos"), dict):
+        raise ValueError("rap_state.json hat ein ungueltiges Format.")
+
+    now = datetime.now(timezone.utc)
+    sources = collect_sources(config, state, key, now)
+
+    if not sources:
+        raise RuntimeError(
+            "Keine Kandidaten gefunden. Vorhandene Daten bleiben erhalten."
+        )
+
+    details = collect_details(sorted(sources), key)
+
+    if not details:
+        raise RuntimeError(
+            "Keine Videodetails erhalten. Daten bleiben erhalten."
+        )
+
+    videos, candidates = build_results(
+        config, state, sources, details, now
+    )
 
     if not candidates:
-        print("No new memes met the viral threshold.")
-        return
-
-    queue = load_json(QUEUE_FILE, [])
-    queue.extend(candidates)
-    save_json(QUEUE_FILE, queue)
-
-    print(f"Added {len(candidates)} new meme candidates.")
-    print(f"Queue saved to: {QUEUE_FILE}")
-
-    for index, candidate in enumerate(candidates, start=1):
-        print(
-            f"{index:02d}. "
-            f"[{candidate['viral_score']:.1f}] "
-            f"r/{candidate['subreddit']} | "
-            f"{candidate['ups']:,} ups | "
-            f"{candidate['comments']:,} comments | "
-            f"{candidate['age_hours']:.1f}h"
+        raise RuntimeError(
+            "Keine auswertbaren Videos. Daten bleiben erhalten."
         )
-        print(f"    {candidate['title'][:100]}")
-        print(f"    {candidate['permalink']}")
+
+    limit = int(
+        config["discovery"].get("max_candidates_in_report", 40)
+    )
+
+    report = {
+        "generated_at": iso_time(now),
+        "publishing_enabled": False,
+        "total_tracked_videos": len(videos),
+        "notes": [
+            "Candidates are not confirmed rap songs.",
+            "Market labels are search contexts, not artist nationality.",
+            "Lifetime averages are not measured trend growth.",
+            "No audio or video is downloaded.",
+        ],
+        "candidates": candidates[:limit],
+    }
+
+    write_json(STATE_PATH, {
+        "schema_version": 1,
+        "updated_at": iso_time(now),
+        "videos": videos,
+    })
+    write_json(REPORT_PATH, report)
+
+    print(f"Gespeicherte Videos: {len(videos)}")
+    print(f"Kandidaten im Bericht: {len(report['candidates'])}")
+
+    for index, item in enumerate(report["candidates"][:10], 1):
+        print(
+            f"{index:02d}. {item['title']} | "
+            f"{item['views']:,} Views | "
+            f"{item['measurement_status']}"
+        )
+
+    print("Keine Inhalte veroeffentlicht.")
 
 
 if __name__ == "__main__":
-    main()
+    try:
+        main()
+    except (RuntimeError, ValueError, OSError, KeyError) as error:
+        key = os.environ.get("YOUTUBE_API_KEY", "")
+        message = str(error)
+        if key:
+            message = message.replace(key, "[REDACTED]")
+        print(f"FEHLER: {message}", file=sys.stderr)
+        sys.exit(1)
