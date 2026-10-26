@@ -55,7 +55,7 @@
     ],
     "include_music_charts": false,
     "chart_results_per_market": 25,
-    "track_previously_discovered_videos": false,
+    "track_previously_discovered_videos": true,
     "minimum_hours_between_measurements": 6,
     "max_candidates_in_report": 100
   },
