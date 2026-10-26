@@ -1,0 +1,1051 @@
+{
+  "generated_at": "2026-10-26T16:17:47.517396Z",
+  "publishing_enabled": false,
+  "total_tracked_videos": 290,
+  "notes": [
+    "Candidates are not confirmed rap songs.",
+    "Market labels are search contexts, not artist nationality.",
+    "Lifetime averages are not measured trend growth.",
+    "No audio or video is downloaded."
+  ],
+  "candidates": [
+    {
+      "video_id": "-5ZXrO_lYSA",
+      "title": "LISA - Tarantino (Official Music Video)",
+      "channel": "LISAOfficialVEVO",
+      "channel_id": "UCg3ymxYCmURj5BFtbgMt-Og",
+      "url": "https://www.youtube.com/watch?v=-5ZXrO_lYSA",
+      "published_at": "2026-10-23T04:00:07Z",
+      "duration": "PT3M37S",
+      "views": 58986520,
+      "likes": 1013645,
+      "comments": 67625,
+      "lifetime_average_views_per_hour": 699766.394,
+      "measurement_status": "baseline",
+      "current_interval": null,
+      "last_completed_interval": null,
+      "market_candidates": [
+        "de",
+        "fr",
+        "uk",
+        "us"
+      ],
+      "sources": [
+        "music_chart:de",
+        "music_chart:fr",
+        "music_chart:uk",
+        "music_chart:us"
+      ],
+      "genre_status": "needs_review",
+      "rights_status": "not_checked",
+      "publish_status": "blocked"
+    },
+    {
+      "video_id": "oC6brLXQe4I",
+      "title": "BABYMONSTER - 'DESERVE' M/V",
+      "channel": "BABYMONSTER",
+      "channel_id": "UCqwUnggBBct-AY2lAdI88jQ",
+      "url": "https://www.youtube.com/watch?v=oC6brLXQe4I",
+      "published_at": "2026-10-23T04:00:09Z",
+      "duration": "PT3M35S",
+      "views": 42861773,
+      "likes": 736419,
+      "comments": 51069,
+      "lifetime_average_views_per_hour": 508479.327,
+      "measurement_status": "baseline",
+      "current_interval": null,
+      "last_completed_interval": null,
+      "market_candidates": [
+        "de",
+        "fr",
+        "uk"
+      ],
+      "sources": [
+        "music_chart:de",
+        "music_chart:fr",
+        "music_chart:uk"
+      ],
+      "genre_status": "needs_review",
+      "rights_status": "not_checked",
+      "publish_status": "blocked"
+    },
+    {
+      "video_id": "iqQWCYMlMw0",
+      "title": "ATEEZ(에이티즈) - 'Drip' Official MV",
+      "channel": "KQ ENTERTAINMENT",
+      "channel_id": "UCQdq-lqPEq_yZ_wP_kuVB9Q",
+      "url": "https://www.youtube.com/watch?v=iqQWCYMlMw0",
+      "published_at": "2026-10-23T04:00:02Z",
+      "duration": "PT3M11S",
+      "views": 15013837,
+      "likes": 467097,
+      "comments": 27775,
+      "lifetime_average_views_per_hour": 178108.583,
+      "measurement_status": "baseline",
+      "current_interval": null,
+      "last_completed_interval": null,
+      "market_candidates": [
+        "de",
+        "fr",
+        "uk",
+        "us"
+      ],
+      "sources": [
+        "music_chart:de",
+        "music_chart:fr",
+        "music_chart:uk",
+        "music_chart:us"
+      ],
+      "genre_status": "needs_review",
+      "rights_status": "not_checked",
+      "publish_status": "blocked"
+    },
+    {
+      "video_id": "Mmw-PpWhKFg",
+      "title": "K/DA - FIRESTARTER ft. MIYEON and SOYEON of i-dle, Sophie Powers, Mimi Webb (Official Music Video)",
+      "channel": "League of Legends",
+      "channel_id": "UC2t5bjwHdUX4vM2g8TRDq5g",
+      "url": "https://www.youtube.com/watch?v=Mmw-PpWhKFg",
+      "published_at": "2026-10-19T01:55:09Z",
+      "duration": "PT3M27S",
+      "views": 28447940,
+      "likes": 844335,
+      "comments": 31505,
+      "lifetime_average_views_per_hour": 155983.939,
+      "measurement_status": "baseline",
+      "current_interval": null,
+      "last_completed_interval": null,
+      "market_candidates": [
+        "us"
+      ],
+      "sources": [
+        "search:us:viewCount:rap official music video"
+      ],
+      "genre_status": "needs_review",
+      "rights_status": "not_checked",
+      "publish_status": "blocked"
+    },
+    {
+      "video_id": "-ZnYdmreOrk",
+      "title": "Veezha Veera Lyrical (Tamil) | OM | Dhanush | Mammootty | Sai Pallavi | Rajkumar | Sai Abhyankkar",
+      "channel": "Divo Music",
+      "channel_id": "UC5rGGthSt-CQue8V0bj1bWg",
+      "url": "https://www.youtube.com/watch?v=-ZnYdmreOrk",
+      "published_at": "2026-10-19T13:30:22Z",
+      "duration": "PT3M59S",
+      "views": 18685437,
+      "likes": 275643,
+      "comments": 8707,
+      "lifetime_average_views_per_hour": 109405.65,
+      "measurement_status": "baseline",
+      "current_interval": null,
+      "last_completed_interval": null,
+      "market_candidates": [
+        "uk"
+      ],
+      "sources": [
+        "music_chart:uk"
+      ],
+      "genre_status": "needs_review",
+      "rights_status": "not_checked",
+      "publish_status": "blocked"
+    },
+    {
+      "video_id": "-zvixJnZuUU",
+      "title": "KAALI HOODIE (MUSIC VIDEO) SIDHU MOOSE WALA FT BOHEMIA | THE KIDD",
+      "channel": "Sidhu Moose Wala",
+      "channel_id": "UC9ChdqQRCaZmTCwSJ49tcbw",
+      "url": "https://www.youtube.com/watch?v=-zvixJnZuUU",
+      "published_at": "2026-10-16T08:00:10Z",
+      "duration": "PT2M50S",
+      "views": 24709717,
+      "likes": 899970,
+      "comments": 152132,
+      "lifetime_average_views_per_hour": 99518.077,
+      "measurement_status": "baseline",
+      "current_interval": null,
+      "last_completed_interval": null,
+      "market_candidates": [
+        "uk",
+        "us"
+      ],
+      "sources": [
+        "music_chart:uk",
+        "search:us:viewCount:rap official music video"
+      ],
+      "genre_status": "needs_review",
+      "rights_status": "not_checked",
+      "publish_status": "blocked"
+    },
+    {
+      "video_id": "0rW7Fbm4S7g",
+      "title": "manifest - TRALALA | Official Music Video",
+      "channel": "manifest",
+      "channel_id": "UC3aqBnkDAfMh5eUmiYi_tfQ",
+      "url": "https://www.youtube.com/watch?v=0rW7Fbm4S7g",
+      "published_at": "2026-10-08T21:00:09Z",
+      "duration": "PT3M50S",
+      "views": 41613250,
+      "likes": 613353,
+      "comments": 90403,
+      "lifetime_average_views_per_hour": 97387.857,
+      "measurement_status": "baseline",
+      "current_interval": null,
+      "last_completed_interval": null,
+      "market_candidates": [
+        "us"
+      ],
+      "sources": [
+        "search:us:viewCount:rap official music video"
+      ],
+      "genre_status": "needs_review",
+      "rights_status": "not_checked",
+      "publish_status": "blocked"
+    },
+    {
+      "video_id": "gsZauX8gwxo",
+      "title": "Olivia Rodrigo - expectations (feat. Chappell Roan) (Official Music Video)",
+      "channel": "OliviaRodrigoVEVO",
+      "channel_id": "UCxE5jEls-T0QtlTHT8lI1lw",
+      "url": "https://www.youtube.com/watch?v=gsZauX8gwxo",
+      "published_at": "2026-10-16T00:00:10Z",
+      "duration": "PT4M53S",
+      "views": 21735618,
+      "likes": 812824,
+      "comments": 24090,
+      "lifetime_average_views_per_hour": 84807.443,
+      "measurement_status": "baseline",
+      "current_interval": null,
+      "last_completed_interval": null,
+      "market_candidates": [
+        "uk",
+        "us"
+      ],
+      "sources": [
+        "music_chart:uk",
+        "music_chart:us"
+      ],
+      "genre_status": "needs_review",
+      "rights_status": "not_checked",
+      "publish_status": "blocked"
+    },
+    {
+      "video_id": "rvMwVzaxjYU",
+      "title": "LISA - Sweat (Lyric Video)",
+      "channel": "LISAOfficialVEVO",
+      "channel_id": "UCg3ymxYCmURj5BFtbgMt-Og",
+      "url": "https://www.youtube.com/watch?v=rvMwVzaxjYU",
+      "published_at": "2026-10-23T04:00:09Z",
+      "duration": "PT2M34S",
+      "views": 6693808,
+      "likes": 228305,
+      "comments": 8148,
+      "lifetime_average_views_per_hour": 79410.224,
+      "measurement_status": "baseline",
+      "current_interval": null,
+      "last_completed_interval": null,
+      "market_candidates": [
+        "uk"
+      ],
+      "sources": [
+        "music_chart:uk"
+      ],
+      "genre_status": "needs_review",
+      "rights_status": "not_checked",
+      "publish_status": "blocked"
+    },
+    {
+      "video_id": "aFssZKYEB2Q",
+      "title": "Dhanda Nyoliwala - No Favours (Official Music Video)",
+      "channel": "Dhanda Nyoliwala",
+      "channel_id": "UCdvPL04EnHCT3zaVFb3xydQ",
+      "url": "https://www.youtube.com/watch?v=aFssZKYEB2Q",
+      "published_at": "2026-10-20T05:30:10Z",
+      "duration": "PT3M7S",
+      "views": 11726165,
+      "likes": 189913,
+      "comments": 10802,
+      "lifetime_average_views_per_hour": 75753.476,
+      "measurement_status": "baseline",
+      "current_interval": null,
+      "last_completed_interval": null,
+      "market_candidates": [
+        "us"
+      ],
+      "sources": [
+        "search:us:viewCount:hip hop official audio",
+        "search:us:viewCount:rap official music video"
+      ],
+      "genre_status": "needs_review",
+      "rights_status": "not_checked",
+      "publish_status": "blocked"
+    },
+    {
+      "video_id": "VUIgT-E4IS0",
+      "title": "Bulin 47 X Kevin Wai - Dame Hombro (Video Oficial)",
+      "channel": "Bulin 47 Oficial",
+      "channel_id": "UC831klfrIJ29f4f9tyqmT0w",
+      "url": "https://www.youtube.com/watch?v=VUIgT-E4IS0",
+      "published_at": "2026-10-08T16:00:10Z",
+      "duration": "PT2M5S",
+      "views": 26837888,
+      "likes": 432642,
+      "comments": 13366,
+      "lifetime_average_views_per_hour": 62082.525,
+      "measurement_status": "baseline",
+      "current_interval": null,
+      "last_completed_interval": null,
+      "market_candidates": [
+        "us"
+      ],
+      "sources": [
+        "music_chart:us"
+      ],
+      "genre_status": "needs_review",
+      "rights_status": "not_checked",
+      "publish_status": "blocked"
+    },
+    {
+      "video_id": "DPEodkHzH-s",
+      "title": "Tate McRae - Housewife (Official Video)",
+      "channel": "TateMcRaeVEVO",
+      "channel_id": "UC-yW8iz7ICKv_bhuxLtcJaw",
+      "url": "https://www.youtube.com/watch?v=DPEodkHzH-s",
+      "published_at": "2026-10-16T00:00:06Z",
+      "duration": "PT3M30S",
+      "views": 15591843,
+      "likes": 299988,
+      "comments": 12268,
+      "lifetime_average_views_per_hour": 60835.565,
+      "measurement_status": "baseline",
+      "current_interval": null,
+      "last_completed_interval": null,
+      "market_candidates": [
+        "de",
+        "fr",
+        "uk",
+        "us"
+      ],
+      "sources": [
+        "music_chart:de",
+        "music_chart:fr",
+        "music_chart:uk",
+        "music_chart:us"
+      ],
+      "genre_status": "needs_review",
+      "rights_status": "not_checked",
+      "publish_status": "blocked"
+    },
+    {
+      "video_id": "9ofUM-_3uQ4",
+      "title": "Megan Thee Stallion - Thin Ice - Tina Tuesday Freestyle",
+      "channel": "Megan Thee Stallion",
+      "channel_id": "UCKrdjiuS66yXOdEZ_cOD_TA",
+      "url": "https://www.youtube.com/watch?v=9ofUM-_3uQ4",
+      "published_at": "2026-10-20T16:00:10Z",
+      "duration": "PT2M27S",
+      "views": 7650474,
+      "likes": 272684,
+      "comments": 10838,
+      "lifetime_average_views_per_hour": 53020.132,
+      "measurement_status": "baseline",
+      "current_interval": null,
+      "last_completed_interval": null,
+      "market_candidates": [
+        "us"
+      ],
+      "sources": [
+        "search:us:viewCount:rap official music video"
+      ],
+      "genre_status": "needs_review",
+      "rights_status": "not_checked",
+      "publish_status": "blocked"
+    },
+    {
+      "video_id": "P9acqIy76Uw",
+      "title": "REAL BADMAN (Official Video) Karan Aujla",
+      "channel": "Karan Aujla",
+      "channel_id": "UC3XBkDeCVXCoCofFgfUZXGw",
+      "url": "https://www.youtube.com/watch?v=P9acqIy76Uw",
+      "published_at": "2026-10-12T12:51:27Z",
+      "duration": "PT3M20S",
+      "views": 17797475,
+      "likes": 145330,
+      "comments": 7376,
+      "lifetime_average_views_per_hour": 52432.023,
+      "measurement_status": "baseline",
+      "current_interval": null,
+      "last_completed_interval": null,
+      "market_candidates": [
+        "us"
+      ],
+      "sources": [
+        "search:us:viewCount:hip hop official audio",
+        "search:us:viewCount:rap official music video"
+      ],
+      "genre_status": "needs_review",
+      "rights_status": "not_checked",
+      "publish_status": "blocked"
+    },
+    {
+      "video_id": "pMpTUqJMnzM",
+      "title": "ITHINNO AADAME | DISCO | Ullas Chemban | Manikandan Ayyappa | Chemban Vinod | Dev | Lukman",
+      "channel": "Chembosky Motion Pictures",
+      "channel_id": "UCuZrvmxH34M_w1Hkd4De_8w",
+      "url": "https://www.youtube.com/watch?v=pMpTUqJMnzM",
+      "published_at": "2026-10-17T14:28:10Z",
+      "duration": "PT2M55S",
+      "views": 11268250,
+      "likes": 98907,
+      "comments": 2817,
+      "lifetime_average_views_per_hour": 51730.251,
+      "measurement_status": "baseline",
+      "current_interval": null,
+      "last_completed_interval": null,
+      "market_candidates": [
+        "uk"
+      ],
+      "sources": [
+        "music_chart:uk"
+      ],
+      "genre_status": "needs_review",
+      "rights_status": "not_checked",
+      "publish_status": "blocked"
+    },
+    {
+      "video_id": "bnu_Db3wCv8",
+      "title": "Ammiye (Official Music Video) NIJJAR | Dr Zeus | Autobiography | Latest Punjabi Song 2026",
+      "channel": "Saregama Punjabi",
+      "channel_id": "UCSdWkYk9pk3DHTXbof_R7XQ",
+      "url": "https://www.youtube.com/watch?v=bnu_Db3wCv8",
+      "published_at": "2026-09-28T08:46:33Z",
+      "duration": "PT2M47S",
+      "views": 34829984,
+      "likes": 269159,
+      "comments": 6221,
+      "lifetime_average_views_per_hour": 51256.693,
+      "measurement_status": "baseline",
+      "current_interval": null,
+      "last_completed_interval": null,
+      "market_candidates": [
+        "us"
+      ],
+      "sources": [
+        "search:us:viewCount:rap official music video"
+      ],
+      "genre_status": "needs_review",
+      "rights_status": "not_checked",
+      "publish_status": "blocked"
+    },
+    {
+      "video_id": "RXFA6LT7osw",
+      "title": "GURU RANDHAWA - \"FOSHO\" - MV - BHUSHAN KUMAR",
+      "channel": "T-Series",
+      "channel_id": "UCq-Fj5jknLsUf-MWSy4_brA",
+      "url": "https://www.youtube.com/watch?v=RXFA6LT7osw",
+      "published_at": "2026-10-06T05:30:05Z",
+      "duration": "PT2M13S",
+      "views": 24447418,
+      "likes": 168822,
+      "comments": 11721,
+      "lifetime_average_views_per_hour": 49811.858,
+      "measurement_status": "baseline",
+      "current_interval": null,
+      "last_completed_interval": null,
+      "market_candidates": [
+        "us"
+      ],
+      "sources": [
+        "search:us:viewCount:rap official music video"
+      ],
+      "genre_status": "needs_review",
+      "rights_status": "not_checked",
+      "publish_status": "blocked"
+    },
+    {
+      "video_id": "CN3yB9ysMtk",
+      "title": "#bts",
+      "channel": "Facto Nex",
+      "channel_id": "UCINwjaOgVr_Gy7gOoD_xfsA",
+      "url": "https://www.youtube.com/watch?v=CN3yB9ysMtk",
+      "published_at": "2026-10-26T13:30:25Z",
+      "duration": "PT40S",
+      "views": 126625,
+      "likes": null,
+      "comments": 1,
+      "lifetime_average_views_per_hour": 45392.005,
+      "measurement_status": "baseline",
+      "current_interval": null,
+      "last_completed_interval": null,
+      "market_candidates": [
+        "us"
+      ],
+      "sources": [
+        "search:us:date:rap official music video"
+      ],
+      "genre_status": "needs_review",
+      "rights_status": "not_checked",
+      "publish_status": "blocked"
+    },
+    {
+      "video_id": "OWbhwq9fecg",
+      "title": "Ozuna x Jory Boy x Ñengo Flow - Vulnerable (Video Oficial)",
+      "channel": "Ozuna",
+      "channel_id": "UCjIA3wwhi0QjSOXAZwOXbPA",
+      "url": "https://www.youtube.com/watch?v=OWbhwq9fecg",
+      "published_at": "2026-10-21T16:00:10Z",
+      "duration": "PT4M9S",
+      "views": 5304020,
+      "likes": 52116,
+      "comments": 2577,
+      "lifetime_average_views_per_hour": 44092.231,
+      "measurement_status": "baseline",
+      "current_interval": null,
+      "last_completed_interval": null,
+      "market_candidates": [
+        "us"
+      ],
+      "sources": [
+        "music_chart:us"
+      ],
+      "genre_status": "needs_review",
+      "rights_status": "not_checked",
+      "publish_status": "blocked"
+    },
+    {
+      "video_id": "LB72Mbd88mU",
+      "title": "Zara Larsson - Blue Moon (Official Music Video)",
+      "channel": "ZaraLarssonMusicVEVO",
+      "channel_id": "UC6MfFxrAK-e4HcgJROvDJDg",
+      "url": "https://www.youtube.com/watch?v=LB72Mbd88mU",
+      "published_at": "2026-10-15T04:00:10Z",
+      "duration": "PT3M14S",
+      "views": 9183876,
+      "likes": 296660,
+      "comments": 10372,
+      "lifetime_average_views_per_hour": 33239.535,
+      "measurement_status": "baseline",
+      "current_interval": null,
+      "last_completed_interval": null,
+      "market_candidates": [
+        "uk"
+      ],
+      "sources": [
+        "music_chart:uk"
+      ],
+      "genre_status": "needs_review",
+      "rights_status": "not_checked",
+      "publish_status": "blocked"
+    },
+    {
+      "video_id": "5dPwBWvmcbQ",
+      "title": "Justice - Flower In A Hurricane (ft Tame Impala, SZA, King Gizzard & the Lizard Wizard) [from GTAVI]",
+      "channel": "Justice",
+      "channel_id": "UCQ5Ssrs48yJBfOesfDqXUeA",
+      "url": "https://www.youtube.com/watch?v=5dPwBWvmcbQ",
+      "published_at": "2026-10-15T13:39:06Z",
+      "duration": "PT3M45S",
+      "views": 8735367,
+      "likes": 189124,
+      "comments": 11050,
+      "lifetime_average_views_per_hour": 32760.304,
+      "measurement_status": "baseline",
+      "current_interval": null,
+      "last_completed_interval": null,
+      "market_candidates": [
+        "fr",
+        "uk"
+      ],
+      "sources": [
+        "music_chart:fr",
+        "music_chart:uk"
+      ],
+      "genre_status": "needs_review",
+      "rights_status": "not_checked",
+      "publish_status": "blocked"
+    },
+    {
+      "video_id": "yYuXFriRFz0",
+      "title": "JuL - Ragnar 2 [ Clip Officiel ] 2026",
+      "channel": "DORETDEPLATINE",
+      "channel_id": "UC-GI5LST5T3Gw93yZxjdFaw",
+      "url": "https://www.youtube.com/watch?v=yYuXFriRFz0",
+      "published_at": "2026-10-23T09:58:02Z",
+      "duration": "PT8M35S",
+      "views": 2478919,
+      "likes": 20073,
+      "comments": 1207,
+      "lifetime_average_views_per_hour": 31647.4,
+      "measurement_status": "baseline",
+      "current_interval": null,
+      "last_completed_interval": null,
+      "market_candidates": [
+        "fr"
+      ],
+      "sources": [
+        "music_chart:fr"
+      ],
+      "genre_status": "needs_review",
+      "rights_status": "not_checked",
+      "publish_status": "blocked"
+    },
+    {
+      "video_id": "D0YkgCt_MgA",
+      "title": "UP Wali Laiki | Nishant Mukta | I-Popstar Hindi Vol.2 | EP 2 | Alright TV | Netflix",
+      "channel": "Saregama Music",
+      "channel_id": "UC_A7K2dXFsTMAciGmnNxy-Q",
+      "url": "https://www.youtube.com/watch?v=D0YkgCt_MgA",
+      "published_at": "2026-10-03T07:30:26Z",
+      "duration": "PT4M2S",
+      "views": 15852314,
+      "likes": 207021,
+      "comments": 4026,
+      "lifetime_average_views_per_hour": 28267.861,
+      "measurement_status": "baseline",
+      "current_interval": null,
+      "last_completed_interval": null,
+      "market_candidates": [
+        "us"
+      ],
+      "sources": [
+        "search:us:viewCount:hip hop official audio",
+        "search:us:viewCount:rap official music video"
+      ],
+      "genre_status": "needs_review",
+      "rights_status": "not_checked",
+      "publish_status": "blocked"
+    },
+    {
+      "video_id": "UcvGS9ohazU",
+      "title": "Cansada",
+      "channel": "Victor Mendivil - Topic",
+      "channel_id": "UCB6w3YIXxmlpbGg8YDVpPgA",
+      "url": "https://www.youtube.com/watch?v=UcvGS9ohazU",
+      "published_at": "2026-10-22T23:12:25Z",
+      "duration": "PT3M44S",
+      "views": 2323401,
+      "likes": 69545,
+      "comments": 1085,
+      "lifetime_average_views_per_hour": 26079.377,
+      "measurement_status": "baseline",
+      "current_interval": null,
+      "last_completed_interval": null,
+      "market_candidates": [
+        "us"
+      ],
+      "sources": [
+        "music_chart:us"
+      ],
+      "genre_status": "needs_review",
+      "rights_status": "not_checked",
+      "publish_status": "blocked"
+    },
+    {
+      "video_id": "gApykAFAgbg",
+      "title": "❌Ángel Caído (R.I.P. Santa Fe Klan)❌ 🐀",
+      "channel": "TornillO Oficial",
+      "channel_id": "UCPj91DXSfoMKXPjrMBidS1g",
+      "url": "https://www.youtube.com/watch?v=gApykAFAgbg",
+      "published_at": "2026-10-20T03:30:09Z",
+      "duration": "PT7M7S",
+      "views": 4046642,
+      "likes": 123097,
+      "comments": 9782,
+      "lifetime_average_views_per_hour": 25808.648,
+      "measurement_status": "baseline",
+      "current_interval": null,
+      "last_completed_interval": null,
+      "market_candidates": [
+        "us"
+      ],
+      "sources": [
+        "music_chart:us"
+      ],
+      "genre_status": "needs_review",
+      "rights_status": "not_checked",
+      "publish_status": "blocked"
+    },
+    {
+      "video_id": "Iy5nOfzOejI",
+      "title": "Rammstein - Live in Mexico City - Deutschland (Official Video)",
+      "channel": "Rammstein Official",
+      "channel_id": "UCYp3rk70ACGXQ4gFAiMr1SQ",
+      "url": "https://www.youtube.com/watch?v=Iy5nOfzOejI",
+      "published_at": "2026-10-23T15:00:11Z",
+      "duration": "PT5M14S",
+      "views": 1733788,
+      "likes": 53538,
+      "comments": null,
+      "lifetime_average_views_per_hour": 23655.42,
+      "measurement_status": "baseline",
+      "current_interval": null,
+      "last_completed_interval": null,
+      "market_candidates": [
+        "de"
+      ],
+      "sources": [
+        "music_chart:de"
+      ],
+      "genre_status": "needs_review",
+      "rights_status": "not_checked",
+      "publish_status": "blocked"
+    },
+    {
+      "video_id": "z-GkOquSqLw",
+      "title": "Amjad Jomaa - Hawa (Official Music Video) | أمجد جمعة - هوى",
+      "channel": "Amjad Jomaa",
+      "channel_id": "UCBs5cNvb-SHOLPNYHqVxAiw",
+      "url": "https://www.youtube.com/watch?v=z-GkOquSqLw",
+      "published_at": "2026-10-08T15:00:08Z",
+      "duration": "PT2M31S",
+      "views": 8742702,
+      "likes": 63077,
+      "comments": 4507,
+      "lifetime_average_views_per_hour": 20177.283,
+      "measurement_status": "baseline",
+      "current_interval": null,
+      "last_completed_interval": null,
+      "market_candidates": [
+        "us"
+      ],
+      "sources": [
+        "search:us:viewCount:rap official music video"
+      ],
+      "genre_status": "needs_review",
+      "rights_status": "not_checked",
+      "publish_status": "blocked"
+    },
+    {
+      "video_id": "JWxoRY7AFSw",
+      "title": "Flower In A Hurricane (feat. Tame Impala, SZA, King Gizzard & the Lizard Wizard) [from GTAVI]",
+      "channel": "Justice - Topic",
+      "channel_id": "UCcJLC91v0A0iD-CMUWdZkig",
+      "url": "https://www.youtube.com/watch?v=JWxoRY7AFSw",
+      "published_at": "2026-10-15T13:19:22Z",
+      "duration": "PT3M45S",
+      "views": 5349183,
+      "likes": 145711,
+      "comments": 3723,
+      "lifetime_average_views_per_hour": 20036.363,
+      "measurement_status": "baseline",
+      "current_interval": null,
+      "last_completed_interval": null,
+      "market_candidates": [
+        "us"
+      ],
+      "sources": [
+        "music_chart:us"
+      ],
+      "genre_status": "needs_review",
+      "rights_status": "not_checked",
+      "publish_status": "blocked"
+    },
+    {
+      "video_id": "Cz7Pd9n3quE",
+      "title": "Tzanca Uraganu - Condeiul cu cerneala neagra [videoclip oficial] 2026",
+      "channel": "Tzanca Uraganu",
+      "channel_id": "UCiebKrTZGBhBqWQRNtQqwoA",
+      "url": "https://www.youtube.com/watch?v=Cz7Pd9n3quE",
+      "published_at": "2026-10-09T10:42:01Z",
+      "duration": "PT2M38S",
+      "views": 8252970,
+      "likes": 60471,
+      "comments": 1006,
+      "lifetime_average_views_per_hour": 19954.17,
+      "measurement_status": "baseline",
+      "current_interval": null,
+      "last_completed_interval": null,
+      "market_candidates": [
+        "de",
+        "uk"
+      ],
+      "sources": [
+        "music_chart:de",
+        "music_chart:uk"
+      ],
+      "genre_status": "needs_review",
+      "rights_status": "not_checked",
+      "publish_status": "blocked"
+    },
+    {
+      "video_id": "GEP8WwFblF8",
+      "title": "Aykut Aksöz - Yüreğime mi Sorsam? (Official Music Video)",
+      "channel": "LOCCA RECORDS",
+      "channel_id": "UCGPbNSJdMAiFMvNV-lSDlYA",
+      "url": "https://www.youtube.com/watch?v=GEP8WwFblF8",
+      "published_at": "2026-10-15T21:00:04Z",
+      "duration": "PT2M46S",
+      "views": 5010531,
+      "likes": 62088,
+      "comments": 2116,
+      "lifetime_average_views_per_hour": 19323.639,
+      "measurement_status": "baseline",
+      "current_interval": null,
+      "last_completed_interval": null,
+      "market_candidates": [
+        "de"
+      ],
+      "sources": [
+        "music_chart:de"
+      ],
+      "genre_status": "needs_review",
+      "rights_status": "not_checked",
+      "publish_status": "blocked"
+    },
+    {
+      "video_id": "zEawlebryII",
+      "title": "Dafina Zeqiri x Sardi Mneri - Per Inati",
+      "channel": "Dafina Zeqiri",
+      "channel_id": "UCrv0PJoutcRhHkSMJYoXAIQ",
+      "url": "https://www.youtube.com/watch?v=zEawlebryII",
+      "published_at": "2026-10-15T16:00:07Z",
+      "duration": "PT2M53S",
+      "views": 4496711,
+      "likes": 15934,
+      "comments": 285,
+      "lifetime_average_views_per_hour": 17014.011,
+      "measurement_status": "baseline",
+      "current_interval": null,
+      "last_completed_interval": null,
+      "market_candidates": [
+        "de"
+      ],
+      "sources": [
+        "music_chart:de"
+      ],
+      "genre_status": "needs_review",
+      "rights_status": "not_checked",
+      "publish_status": "blocked"
+    },
+    {
+      "video_id": "IZGuL3s4wS8",
+      "title": "Bouss - Pas de rôle (Clip officiel)",
+      "channel": "Bouss Officiel",
+      "channel_id": "UCtCl6Z8mJBujV5Zmt8ShgBA",
+      "url": "https://www.youtube.com/watch?v=IZGuL3s4wS8",
+      "published_at": "2026-10-22T19:00:02Z",
+      "duration": "PT3M8S",
+      "views": 1550568,
+      "likes": 7965,
+      "comments": 267,
+      "lifetime_average_views_per_hour": 16619.881,
+      "measurement_status": "baseline",
+      "current_interval": null,
+      "last_completed_interval": null,
+      "market_candidates": [
+        "fr"
+      ],
+      "sources": [
+        "music_chart:fr"
+      ],
+      "genre_status": "needs_review",
+      "rights_status": "not_checked",
+      "publish_status": "blocked"
+    },
+    {
+      "video_id": "URzVbs2vgX4",
+      "title": "SCH - Précipices & Professionnels feat. SDM",
+      "channel": "SCH",
+      "channel_id": "UCeBu6AFsaPVElhFzlj5hetg",
+      "url": "https://www.youtube.com/watch?v=URzVbs2vgX4",
+      "published_at": "2026-10-22T16:00:06Z",
+      "duration": "PT4M35S",
+      "views": 1578036,
+      "likes": 49032,
+      "comments": 1993,
+      "lifetime_average_views_per_hour": 16387.54,
+      "measurement_status": "baseline",
+      "current_interval": null,
+      "last_completed_interval": null,
+      "market_candidates": [
+        "fr"
+      ],
+      "sources": [
+        "music_chart:fr",
+        "search:fr:viewCount:rap français clip officiel"
+      ],
+      "genre_status": "needs_review",
+      "rights_status": "not_checked",
+      "publish_status": "blocked"
+    },
+    {
+      "video_id": "PN0chKQVjhc",
+      "title": "La Fouine - 1981 | A COLORS SHOW",
+      "channel": "COLORS",
+      "channel_id": "UC2Qw1dzXDBAZPwS7zm37g8g",
+      "url": "https://www.youtube.com/watch?v=PN0chKQVjhc",
+      "published_at": "2026-10-05T16:00:10Z",
+      "duration": "PT2M48S",
+      "views": 7592858,
+      "likes": 54624,
+      "comments": 2695,
+      "lifetime_average_views_per_hour": 15056.419,
+      "measurement_status": "baseline",
+      "current_interval": null,
+      "last_completed_interval": null,
+      "market_candidates": [
+        "fr"
+      ],
+      "sources": [
+        "search:fr:viewCount:rap français audio officiel",
+        "search:fr:viewCount:rap français clip officiel"
+      ],
+      "genre_status": "needs_review",
+      "rights_status": "not_checked",
+      "publish_status": "blocked"
+    },
+    {
+      "video_id": "La4g9CSXvus",
+      "title": "Feid, El Americano 4KT, Pirlo - PARADIXE",
+      "channel": "Feid",
+      "channel_id": "UCoMlNw7o21I7LqL4OsjSYAg",
+      "url": "https://www.youtube.com/watch?v=La4g9CSXvus",
+      "published_at": "2026-10-09T21:04:04Z",
+      "duration": "PT5M46S",
+      "views": 5882503,
+      "likes": 85665,
+      "comments": 3513,
+      "lifetime_average_views_per_hour": 14588.501,
+      "measurement_status": "baseline",
+      "current_interval": null,
+      "last_completed_interval": null,
+      "market_candidates": [
+        "us"
+      ],
+      "sources": [
+        "search:us:viewCount:rap official music video"
+      ],
+      "genre_status": "needs_review",
+      "rights_status": "not_checked",
+      "publish_status": "blocked"
+    },
+    {
+      "video_id": "iFaXJX7bcFA",
+      "title": "Lojak Mojak - Music Video | Meesaya Murukku 2 | Hiphop Tamizha | Ketika Sharma | Harshath Khan",
+      "channel": "Saregama Tamil",
+      "channel_id": "UCzee67JnEcuvjErRyWP3GpQ",
+      "url": "https://www.youtube.com/watch?v=iFaXJX7bcFA",
+      "published_at": "2026-10-01T12:48:18Z",
+      "duration": "PT2M29S",
+      "views": 8455468,
+      "likes": 38436,
+      "comments": 625,
+      "lifetime_average_views_per_hour": 14010.914,
+      "measurement_status": "baseline",
+      "current_interval": null,
+      "last_completed_interval": null,
+      "market_candidates": [
+        "us"
+      ],
+      "sources": [
+        "search:us:viewCount:hip hop official audio",
+        "search:us:viewCount:rap official music video"
+      ],
+      "genre_status": "needs_review",
+      "rights_status": "not_checked",
+      "publish_status": "blocked"
+    },
+    {
+      "video_id": "8ZQbCbjW8Vg",
+      "title": "Connect-R x Karmen - Fa-ti Talentu'! (Carmen) | Official Video",
+      "channel": "Connect-R",
+      "channel_id": "UCHzHMCrmkjXyVTkGGrlesfQ",
+      "url": "https://www.youtube.com/watch?v=8ZQbCbjW8Vg",
+      "published_at": "2026-10-15T06:30:09Z",
+      "duration": "PT2M21S",
+      "views": 3649285,
+      "likes": 47396,
+      "comments": 709,
+      "lifetime_average_views_per_hour": 13328.578,
+      "measurement_status": "baseline",
+      "current_interval": null,
+      "last_completed_interval": null,
+      "market_candidates": [
+        "de",
+        "uk"
+      ],
+      "sources": [
+        "music_chart:de",
+        "music_chart:uk"
+      ],
+      "genre_status": "needs_review",
+      "rights_status": "not_checked",
+      "publish_status": "blocked"
+    },
+    {
+      "video_id": "I6oX8rzbY6E",
+      "title": "Jala Brat & Buba Corelli - Barcelona",
+      "channel": "IMPERIA",
+      "channel_id": "UCaWaxupwQ7Pssm94Xcxi8LA",
+      "url": "https://www.youtube.com/watch?v=I6oX8rzbY6E",
+      "published_at": "2026-10-16T12:00:35Z",
+      "duration": "PT2M5S",
+      "views": 3177326,
+      "likes": 30751,
+      "comments": 757,
+      "lifetime_average_views_per_hour": 13006.539,
+      "measurement_status": "baseline",
+      "current_interval": null,
+      "last_completed_interval": null,
+      "market_candidates": [
+        "de"
+      ],
+      "sources": [
+        "music_chart:de"
+      ],
+      "genre_status": "needs_review",
+      "rights_status": "not_checked",
+      "publish_status": "blocked"
+    },
+    {
+      "video_id": "gXSQdXSPsDs",
+      "title": "Paciencia",
+      "channel": "LOS DOS DE TAMAULIPAS - Topic",
+      "channel_id": "UCjDCUfKytMMjrshUQJ30qxg",
+      "url": "https://www.youtube.com/watch?v=gXSQdXSPsDs",
+      "published_at": "2026-10-08T10:00:21Z",
+      "duration": "PT2M37S",
+      "views": 5605097,
+      "likes": 58844,
+      "comments": 139,
+      "lifetime_average_views_per_hour": 12788.537,
+      "measurement_status": "baseline",
+      "current_interval": null,
+      "last_completed_interval": null,
+      "market_candidates": [
+        "us"
+      ],
+      "sources": [
+        "music_chart:us"
+      ],
+      "genre_status": "needs_review",
+      "rights_status": "not_checked",
+      "publish_status": "blocked"
+    },
+    {
+      "video_id": "48rRv5ISfrg",
+      "title": "Gunna - pop it [Official Video]",
+      "channel": "Gunna",
+      "channel_id": "UCAkIMkEaa9sZmjcy7mfd5lQ",
+      "url": "https://www.youtube.com/watch?v=48rRv5ISfrg",
+      "published_at": "2026-10-09T15:00:08Z",
+      "duration": "PT2M58S",
+      "views": 4947065,
+      "likes": 95783,
+      "comments": 4103,
+      "lifetime_average_views_per_hour": 12086.816,
+      "measurement_status": "baseline",
+      "current_interval": null,
+      "last_completed_interval": null,
+      "market_candidates": [
+        "us"
+      ],
+      "sources": [
+        "search:us:viewCount:hip hop official audio"
+      ],
+      "genre_status": "needs_review",
+      "rights_status": "not_checked",
+      "publish_status": "blocked"
+    }
+  ]
+}
