@@ -7,8 +7,8 @@
       "region_code": "US",
       "relevance_language": "en",
       "search_queries": [
-        "rap official music video",
-        "hip hop official audio"
+        "US rap official music video",
+        "American hip hop official audio"
       ],
       "verified_channel_ids": []
     },
@@ -47,17 +47,18 @@
     }
   ],
   "discovery": {
-    "recent_search_days": 30,
-    "results_per_query": 15,
-    "search_orders": [
-      "date",
-      "viewCount"
-    ],
-    "include_music_charts": true,
-    "chart_results_per_market": 25,
-    "track_previously_discovered_videos": true,
-    "minimum_hours_between_measurements": 6,
-    "max_candidates_in_report": 40
+  "recent_search_days": 30,
+  "results_per_query": 15,
+  "search_orders": [
+    "relevance",
+    "date"
+  ],
+  "include_music_charts": false,
+  "chart_results_per_market": 25,
+  "track_previously_discovered_videos": false,
+  "minimum_hours_between_measurements": 6,
+  "max_candidates_in_report": 100
+},
   },
   "selection": {
     "filter_by_mood": false,
